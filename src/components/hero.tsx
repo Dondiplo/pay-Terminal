@@ -3,7 +3,9 @@ import apple from "/public/assets/image 1.svg";
 import android from "/public/assets/image 2.svg";
 import Image from "next/image";
 import Link from "next/link";
-import phone1 from "/public/assets/Group 508.svg"
+import phone1 from "/public/assets/Group 508.svg";
+import rectangle7 from "public/assets/Rectangle 7.svg"
+import logos from "/public/assets/Group 509.svg"
 
 export default function Hero() {
   return (
@@ -35,6 +37,10 @@ export default function Hero() {
 
     
       </div>
+      <div className="rounded-3xl bg-zinc-50  mx-auto py-8 mt-[35rem] md:mt-0 ">
+<Image className="mx-auto" src={logos} alt="logos"/>
+</div>
+
     </div>
   );
 }
