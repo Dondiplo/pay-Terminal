@@ -58,7 +58,7 @@ export default function Hero() {
       </div>
 
 
-      
+    
 
       {/* section2 */}
       <section className="justify-content" id="hero2">

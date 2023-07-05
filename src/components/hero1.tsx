@@ -53,8 +53,8 @@ const Hero1 = () => {
         </div>
       </div>
 
-      <section className="">
-      <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 pt-28 flex bg-[#00082B] rounded-[30px]  ">
+      <section className="pt-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 md:pt-28 pt:12 flex bg-[#00082B] rounded-[30px]  ">
           <div>
             <div className="order-first md:order-first justify-center mt-0 md:mt-20 ml-16 pr-6 md:pr-0">
 
@@ -79,7 +79,7 @@ const Hero1 = () => {
           </div>
 
           {/* second part */}
-          <div className="order-last md:order-last justify-center mx-auto ">
+          <div className="order-last md:order-last justify-center mx-auto  ">
 <Image src={rotate} alt="rotate" className="animate-slower-rotate"/>
           </div>
         </div>
