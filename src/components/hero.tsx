@@ -11,6 +11,7 @@ import group462 from "/public/assets/Group 462.svg";
 import group463 from "/public/assets/Group 463.svg";
 import group464 from "/public/assets/Group 464.svg";
 import line from "/public/assets/Line 1.svg";
+
 import "../app/app.css";
 
 export default function Hero() {
@@ -22,10 +23,10 @@ export default function Hero() {
       >
         <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 pt-28">
           <div className="order-first md:order-first justify-center mt-0 md:mt-20 ml-16">
-            <h1 className="text-[#3C5F00] font-thin lg:text-[50px] md:text-[45px]">
+            <h1 className="text-[#3C5F00]  font-thin lg:text-[50px] md:text-[45px] ">
               Fastest way to make
             </h1>
-            <h2 className="text-[#3C5F00] font-extrabold lg:text-[50px] md:text-[45px]">
+            <h2 className="text-[#3C5F00]  font-extrabold lg:text-[50px] md:text-[45px]">
               Secured payment.
             </h2>
             <p className="lg:text-[18px] md:text-[15px] font-[400] pt-12 lg:leading-[33px]">
@@ -48,7 +49,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="rounded-3xl bg-zinc-50  mx-auto py-8 mt-[35rem] md:mt-0  w-[90%]">
+      <div className="rounded-3xl bg-white shadow-slate-500 drop-shadow-2xl  mx-auto py-8 mt-[35rem] md:mt-0  w-[90%]">
         <Image className="mx-auto" src={logos} alt="logos" />
       </div>
 
@@ -56,15 +57,20 @@ export default function Hero() {
         <Image className="" src={vector} alt="vector" />
       </div>
 
+
+      
+
       {/* section2 */}
       <section className="justify-content" id="hero2">
-        <div>
+        <div className="bg-cover bg-center  relative"
+        style={{ backgroundImage: "url(public/assets/hiw.svg)" }} >
+
           <h1 className="font-bold text-[43px] text-[#2d3247]  text-center">
             How it Works
           </h1>
         </div>
 
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 justify-center mx-auto pt-12 items-center ">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 justify-center mx-auto pt-12 items-center  ">
           <div className=" h-80 mx-auto ">
             <Image src={group462} alt="group462" />
             <h1 className="font-bold text-center pt-4">Download Mobile App</h1>
@@ -84,7 +90,7 @@ export default function Hero() {
             </p>
           </div>
           <div className="h-80 mx-auto">
-            <Image src={group463} alt="group463" />
+            <Image src={group464} alt="group464" />
             <h1 className="font-bold text-center ">Add a debit card</h1>
             <p className="text-center pt-4">
             Add a debit card or fund your account <br />
