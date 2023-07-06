@@ -14,8 +14,8 @@ const Hero1 = () => {
   return (
     <div className="container mx-auto pt-40 pb-24 md:pb-0">
       <div
-        className="bg-cover bg-center relative h-[700px] relative"
-        style={{ backgroundImage: "url(public/assets/Group 470.png)" }}
+        className="bg-cover bg-center bg-no-repeat  h-full w-full "
+        style={{ backgroundImage: `url('/assets/Group470.svg')` }}
       >
         <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex ">
           <div>
@@ -47,7 +47,7 @@ const Hero1 = () => {
 
           {/* second part */}
           <div className="order-last md:order-last justify-center w-[80%] "></div>
-          <Image src={group510} alt="group510"/>
+          <Image src={group510} alt="group510" />
         </div>
       </div>
 

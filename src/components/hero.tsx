@@ -12,7 +12,6 @@ import group463 from "/public/assets/Group 463.svg";
 import group464 from "/public/assets/Group 464.svg";
 import line from "/public/assets/Line 1.svg";
 
-
 import "../app/app.css";
 
 export default function Hero() {
@@ -46,7 +45,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="order-last md:order-last justify-center">
-            <Image src={phone1} alt="phone1" />
+            <Image className="animate-pulse" src={phone1} alt="phone1" />
           </div>
         </div>
       </div>
@@ -58,14 +57,12 @@ export default function Hero() {
         <Image className="" src={vector} alt="vector" />
       </div>
 
-
-    
-
       {/* section2 */}
       <section className="justify-content" id="hero2">
-        <div className="bg-cover bg-center  relative"
-        style={{ backgroundImage: "url(public/assets/hiw.svg)" }} >
-
+        <div
+          className="bg-no-repeat bg-cover bg-center h-full w-[50%] mx-auto"
+          style={{ backgroundImage: `url('/assets/hiw.svg')` }}
+        >
           <h1 className="font-bold text-[43px] text-[#2d3247]  text-center">
             How it Works
           </h1>
@@ -85,8 +82,8 @@ export default function Hero() {
             <Image src={group463} alt="group463" />
             <h1 className="font-bold text-center ">Create an account</h1>
             <p className="text-center pt-4 font-extralight">
-            Sign up on the mobile app in less than <br />
-             2 mins by providing the required KYC <br />
+              Sign up on the mobile app in less than <br />
+              2 mins by providing the required KYC <br />
               details.
             </p>
           </div>
@@ -94,8 +91,8 @@ export default function Hero() {
             <Image src={group464} alt="group464" />
             <h1 className="font-bold text-center  ">Add a debit card</h1>
             <p className="text-center pt-4 font-extralight">
-            Add a debit card or fund your account <br />
-             and you’re good to go
+              Add a debit card or fund your account <br />
+              and you’re good to go
             </p>
           </div>
         </div>
