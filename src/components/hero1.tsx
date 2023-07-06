@@ -52,7 +52,7 @@ const Hero1 = () => {
       </div>
 
       {/* section2 */}
-      <section className="md:pt-12 pt-24 ">
+      <section className="md:pt-12 mt-60 md:mt-0 ">
         <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 md:pt-28  flex bg-[#00082B] rounded-[30px]  ">
           <div>
             <div className="order-first md:order-first justify-center mt-0 md:mt-20 ml-16 pr-6 md:pr-0">
