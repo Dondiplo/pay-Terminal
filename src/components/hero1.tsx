@@ -9,12 +9,13 @@ import rotate from "public/assets/rotate.svg";
 import apple1 from "public/assets/appstore.97e12ae9 3.svg";
 import android1 from "public/assets/googleplay.efaebdd2 1.svg";
 import group510 from "public/assets/Group 510.svg";
+import group511 from "public/assets/Group 511.svg";
 
 const Hero1 = () => {
   return (
-    <div className="container mx-auto pt-40 pb-24 md:pb-0">
+    <div className="container mx-auto pt-40  ">
       <div
-        className="bg-cover bg-center bg-no-repeat  h-full w-full "
+        className="bg-cover bg-center bg-no-repeat md:h-full h-[60rem]  w-full "
         style={{ backgroundImage: `url('/assets/Group470.svg')` }}
       >
         <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex ">
@@ -85,6 +86,112 @@ const Hero1 = () => {
               alt="rotate"
               className="animate-slower-rotate"
             />
+          </div>
+        </div>
+      </section>
+
+      {/* third part */}
+      <section className="pt-24">
+        <h1 className="text[#2D3247] font-bold text-[42px] text-center">
+          Your money is safe with us
+        </h1>
+        <p className="text-center">
+          Start sending money and paying your bills faster today.
+        </p>
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 justify-center mx-auto pt-12 items-center  ">
+          {/* higher element */}
+          <div className="flex justify-center lg:justify-end">
+            <div>
+            <div>
+              <h1 className="text[#2D3247] font-bold text-[24px]">
+                Security and Privacy
+              </h1>
+              <div className="flex space-x-4">
+                {" "}
+                <p>
+                  We take your security and privacy <br />
+                  very seriously and we are committed <br />
+                  to protecting your account with the <br />
+                  highest standards of security <br />
+                  available.
+                </p>
+                <span className="h-[85px] border-l-2 border-[#82C708]"></span>
+              </div>
+            </div>
+
+            {/* lower element */}
+            <div className="pt-20">
+              <h1 className="text[#2D3247] font-bold text-[24px]">
+              Bank Level Security
+              </h1>
+              <div className="flex space-x-4">
+                {" "}
+                <p>
+                We use state of the art data <br />
+                 encryption technology when handling <br />
+                 all financial information and standard <br />
+                  two-factor authentication (2FA) <br />
+                   protection.
+                </p>
+                <span className="h-[85px] border-l-2 border-[#82C708]"></span>
+              </div>
+            </div>
+
+            </div>
+           
+          </div>
+           {/* part2 */}
+          <div>
+            <div className="flex justify-content">
+            <Image src={group511} alt="group511" />
+            </div>
+          </div>
+
+          {/* part3 */}
+          <div>
+          <div className="flex justify-center lg:justify-start ">
+            <div>
+            <div>
+              <h1 className="text[#2D3247] font-bold text-[24px]">
+              Secure Transactions
+              </h1>
+              <div className="flex space-x-4">
+                {" "}
+                <span className="h-[85px] border-l-2 border-[#82C708]"></span>
+                <p>
+                  We take your security and privacy <br />
+                  very seriously and we are committed <br />
+                  to protecting your account with the <br />
+                  highest standards of security <br />
+                  available.
+                </p>
+                
+              </div>
+            </div>
+
+            {/* lower element */}
+            <div className="pt-20">
+              <h1 className="text[#2D3247] font-bold text-[24px]">
+                Security and Privacy
+              </h1>
+              <div className="flex space-x-4">
+                {" "}
+                <span className="h-[85px] border-l-2 border-[#82C708]"></span>
+                <p>
+                  We take your security and privacy <br />
+                  very seriously and we are committed <br />
+                  to protecting your account with the <br />
+                  highest standards of security <br />
+                  available.
+                </p>
+                
+              </div>
+            </div>
+
+            </div>
+           
+          </div>
+
           </div>
         </div>
       </section>

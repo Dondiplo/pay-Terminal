@@ -18,7 +18,7 @@ export default function Hero() {
   return (
     <div className="lg:container lg:mx-auto">
       <div
-        className="bg-cover bg-center h-[950px] relative"
+        className="bg-cover bg-center md:h-[920px] h-[35rem] relative"
         style={{ backgroundImage: "url(/assets/Rectangle%202.svg)" }}
       >
         <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 pt-28">
