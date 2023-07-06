@@ -12,6 +12,7 @@ import group463 from "/public/assets/Group 463.svg";
 import group464 from "/public/assets/Group 464.svg";
 import line from "/public/assets/Line 1.svg";
 
+
 import "../app/app.css";
 
 export default function Hero() {
@@ -29,7 +30,7 @@ export default function Hero() {
             <h2 className="text-[#3C5F00]  font-extrabold lg:text-[50px] md:text-[45px]">
               Secured payment.
             </h2>
-            <p className="lg:text-[18px] md:text-[15px] font-[400] pt-12 lg:leading-[33px]">
+            <p className="lg:text-[18px] md:text-[15px] font-[400] pt-12 lg:leading-[33px] font-extralight">
               Send money to friends, support local businesses, pay online <br />
               vendors, and manage subscriptions—all in a few clicks. With <br />
               our payment app, streamline your transactions effortlessly.
@@ -73,8 +74,8 @@ export default function Hero() {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 justify-center mx-auto pt-12 items-center  ">
           <div className=" h-80 mx-auto ">
             <Image src={group462} alt="group462" />
-            <h1 className="font-bold text-center pt-4">Download Mobile App</h1>
-            <p className="text-center pt-4">
+            <h1 className="font-bold text-center pt-4 ">Download Mobile App</h1>
+            <p className="text-center pt-4 font-extralight">
               To get started, simply download the <br />
               Payterminal mobile application from the <br />
               app store or play store
@@ -83,7 +84,7 @@ export default function Hero() {
           <div className="h-80 mx-auto">
             <Image src={group463} alt="group463" />
             <h1 className="font-bold text-center ">Create an account</h1>
-            <p className="text-center pt-4">
+            <p className="text-center pt-4 font-extralight">
             Sign up on the mobile app in less than <br />
              2 mins by providing the required KYC <br />
               details.
@@ -91,8 +92,8 @@ export default function Hero() {
           </div>
           <div className="h-80 mx-auto">
             <Image src={group464} alt="group464" />
-            <h1 className="font-bold text-center ">Add a debit card</h1>
-            <p className="text-center pt-4">
+            <h1 className="font-bold text-center  ">Add a debit card</h1>
+            <p className="text-center pt-4 font-extralight">
             Add a debit card or fund your account <br />
              and you’re good to go
             </p>
