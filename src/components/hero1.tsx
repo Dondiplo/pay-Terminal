@@ -212,7 +212,7 @@ const Hero1 = () => {
 
           {/* lower part */}
 
-          <div className="flex justify-center md:justify-start md:w-full mx-auto  ">
+          <div className="flex justify-center md:justify-start container  mx-auto  md:w-full   ">
             <div className="space-y-6">
               <p className="text-[#558205]">Payterminal for business </p>
               <h1 className="text-[#050038] text-[20px] md:text-[38px]   font-[600] relative">
