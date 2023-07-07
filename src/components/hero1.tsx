@@ -12,7 +12,7 @@ import group510 from "public/assets/Group 510.svg";
 import group511 from "public/assets/Group 511.svg";
 import group266 from "public/assets/Group 266.svg";
 import group513 from "public/assets/Group 513.svg";
-import group144 from "public/assets/Group144.svg"
+import group144 from "public/assets/Group144.svg";
 const Hero1 = () => {
   return (
     <div>
@@ -235,7 +235,7 @@ const Hero1 = () => {
                 <li>Track and cut down employee theft</li>
                 <li>Built for your success</li>
               </ul>
-              <Image className="" src={group144} alt="group144"/>
+              <Image className="" src={group144} alt="group144" />
             </div>
           </div>
         </div>
