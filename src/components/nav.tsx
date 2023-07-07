@@ -8,6 +8,7 @@ import logo from "/public/assets/logo 1.svg";
 import apple from "/public/assets/image 1.svg";
 import android from "/public/assets/image 2.svg";
 
+
 export default function Nav() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
