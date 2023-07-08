@@ -18,7 +18,7 @@ const Hero2 = () => {
     <div>
       <section className="container mx-auto pt-40">
         <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex ">
-          <div className="flex justify-center  container  mx-auto   ">
+          <div className="flex justify-center  container  mx-auto w-[90%]   ">
             <div className="space-y-6">
               <h1 className="text-[#050038] text-[20px] md:text-[38px]   font-[600] relative">
                 Unlock a new world of <br />
