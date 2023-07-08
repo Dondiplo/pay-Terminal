@@ -116,8 +116,8 @@ const Hero2 = () => {
           </div>
 
           {/* part2 */}
-          <div className=" flex justify-between w-[90%]">
-            <div className=" hidden md:block space-y-4 text-[#D0DAF5] font-light justify-center">
+          <div className=" flex justify-between  w-[90%]">
+            <div className=" hidden md:block space-y-4 text-[#D0DAF5] font-light ">
               <h1 className="font-bold">Explore</h1>
               <p>Resources </p>
               <p>Blog</p>
@@ -128,7 +128,7 @@ const Hero2 = () => {
             </div>
 
             <div>
-              <div className="space-y-8 text-[#D0DAF5] font-light rounded-2xl px-8 py-4 border-[0.5px] border-white blur-2xl] justify-center">
+              <div className="space-y-8 text-[#D0DAF5] font-light rounded-2xl px-8 py-4 border-[0.5px] border-white blur-2xl]  justify-center">
                 <h1 className="font-bold">Subscribe</h1>
                 <div>
                   <label
@@ -182,11 +182,9 @@ const Hero2 = () => {
 
           {/* 3rd */}
           <ul className="flex space-x-4">
-<Image src={linkedin} alt="linkedin"/>
-<Image src={facebook} alt="facebook"/>
-<Image src={shape} alt="shape"/>
-
-
+            <Image src={linkedin} alt="linkedin" />
+            <Image src={facebook} alt="facebook" />
+            <Image src={shape} alt="shape" />
           </ul>
         </div>
       </footer>

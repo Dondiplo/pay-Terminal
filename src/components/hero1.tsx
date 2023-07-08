@@ -212,30 +212,33 @@ const Hero1 = () => {
 
           {/* lower part */}
 
-          <div className="flex justify-center md:justify-start container  mx-auto  md:w-full   ">
-            <div className="space-y-6">
-              <p className="text-[#558205]">Payterminal for business </p>
-              <h1 className="text-[#050038] text-[20px] md:text-[38px]   font-[600] relative">
-                Let’s help you power up your <br />
-                business, streamline operations <br />
-                and Accelerate growth.{" "}
-                <span className="absolute right-2 bottom-1 md:bottom-4">
-                  <Image src={group513} alt="group513" />{" "}
-                </span>
-              </h1>
-              <p>
-                Supercharge and take your business to the next level with <br />
-                payterminal. Money moves better with Payterminal.
-              </p>
-              <ul className="list-disc">
-                <li>Get a free business account</li>
-                <li>Access to Pos Device</li>
-                <li>Organise your business with easy to use tools</li>
-                <li>Increase sales and revenue with modern solutions</li>
-                <li>Track and cut down employee theft</li>
-                <li>Built for your success</li>
-              </ul>
-              <Image className="" src={group144} alt="group144" />
+          <div className="flex justify-center md:justify-start container  mx-auto  md:w-full">
+            <div className="flex justify-center mx-auto w-[80%]">
+              <div className="space-y-6">
+                <p className="text-[#558205]">Payterminal for business </p>
+                <h1 className="text-[#050038] text-[20px] md:text-[38px]   font-[600] relative">
+                  Let’s help you power up your <br />
+                  business, streamline operations <br />
+                  and Accelerate growth.{" "}
+                  <span className="absolute md:right-2  bottom-1 md:bottom-4">
+                    <Image src={group513} alt="group513" />{" "}
+                  </span>
+                </h1>
+                <p>
+                  Supercharge and take your business to the next level with{" "}
+                  <br />
+                  payterminal. Money moves better with Payterminal.
+                </p>
+                <ul className="list-disc">
+                  <li>Get a free business account</li>
+                  <li>Access to Pos Device</li>
+                  <li>Organise your business with easy to use tools</li>
+                  <li>Increase sales and revenue with modern solutions</li>
+                  <li>Track and cut down employee theft</li>
+                  <li>Built for your success</li>
+                </ul>
+                <Image className="" src={group144} alt="group144" />
+              </div>
             </div>
           </div>
         </div>
