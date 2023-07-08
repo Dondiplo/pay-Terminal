@@ -47,7 +47,7 @@ const Hero2 = () => {
             className="bg-cover bg-center bg-no-repeat  "
             style={{ backgroundImage: `url('/assets/OJO.svg')` }}
           >
-            <Image className="w-[80%]" src={group515} alt="image515" />
+            <Image className="w-[80%] mx-auto" src={group515} alt="image515" />
           </div>
         </div>
 
@@ -94,8 +94,8 @@ const Hero2 = () => {
         {/* footer */}
       </section>
       <footer className="bg-[#262B3E] mt-24 pt-24 pb-8 ">
-        <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  container mx-auto">
-          <div className=" flex justify-between  w-[80%]">
+        <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  container mx-auto ">
+          <div className=" flex justify-between mx-auto w-[90%]">
             <div className="space-y-4 text-[#D0DAF5] font-light">
               <h1 className="font-bold">Contact</h1>
               <p>0703 XXX XXX </p>
@@ -116,7 +116,7 @@ const Hero2 = () => {
           </div>
 
           {/* part2 */}
-          <div className=" flex justify-between  w-[90%]">
+          <div className=" flex justify-between  w-[90%] mx-auto">
             <div className=" hidden md:block space-y-4 text-[#D0DAF5] font-light ">
               <h1 className="font-bold">Explore</h1>
               <p>Resources </p>
@@ -168,7 +168,7 @@ const Hero2 = () => {
         <div className="h-[0.5px] bg-[#D0DAF5] w-[80%] flex justify-content mx-auto border-dotted mt-8"></div>
 
         {/* end footer  */}
-        <div className="justify-between  flex mx-auto container text-[#D0DAF5]">
+        <div className="container mx-auto  justify-between  w-[90%] flex  text-[#D0DAF5]">
           <div className="py-2">
             <Image src={footlo} alt="footlo" />
             <p>No 1 katakuma plaza Gudu Abuja</p>

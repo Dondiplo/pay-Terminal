@@ -68,7 +68,7 @@ export default function Hero() {
           </h1>
         </div>
 
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 justify-center mx-auto pt-12 items-center  ">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 justify-center mx-auto pt-12 items-center space-y-2 md:space-y-0  ">
           <div className=" h-80 mx-auto ">
             <Image src={group462} alt="group462" />
             <h1 className="font-bold text-center pt-4 ">Download Mobile App</h1>
