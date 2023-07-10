@@ -22,15 +22,16 @@ export default function Nav() {
 
   return (
     <div className="mx-10 pt-12">
-      <div className="flex justify-between items-center relative">
+      <div></div>
+      <div className="flex justify-between items-center relative  fixed top-0 left-0 w-full z-10">
         <Link href="/"
         onClick={handleCloseMenu}>
           <Image src={logo} alt="logo" />
           
         </Link>
 
-        <div className="space-x-4 lg:space-x-10 md:flex hidden">
-          <Link className="hover:font-bold" href="/us/home">
+        <div className="space-x-4 lg:space-x-10 md:flex hidden text-[#313131]">
+          <Link className="text-[#313131] hover:font-bold" href="/us/home">
             Home
           </Link>
           <Link className="hover:font-bold" href="/us/about-us">

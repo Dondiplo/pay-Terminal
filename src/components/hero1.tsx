@@ -13,12 +13,18 @@ import group511 from "public/assets/Group 511.svg";
 import group266 from "public/assets/Group 266.svg";
 import group513 from "public/assets/Group 513.svg";
 import group144 from "public/assets/Group144.svg";
+import group515 from "public/assets/Group 515 .svg";
+
 const Hero1 = () => {
   return (
     <div>
-      <div className="container mx-auto pt-40  ">
-        <div
-          className="bg-cover bg-center bg-no-repeat md:h-full h-[60rem]  w-full "
+
+      <div className="mt-40 bg-[#f7f7f7]">
+
+      
+
+      <div
+          className="bg-cover bg-center bg-no-repeat md:h-full h-[70rem]  w-full "
           style={{ backgroundImage: `url('/assets/Group470.svg')` }}
         >
           <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex ">
@@ -29,12 +35,12 @@ const Hero1 = () => {
                   possibilities with the ultimate <br />
                   freedom of Payment
                 </h1>
-                <p className="pt-6 ">
+                <p className="pt-6 text-[#313131]">
                   With our intuitive platform, you can swiftly make <br />
                   payments, seamlessly send and receive money, and <br />
-                  effortlessly stay connected to a wide range of local and{" "}
+                  effortlessly stay connected to a wide range of local and
                   <br />
-                  international services that hold a special place in your{" "}
+                  international services that hold a special place in your
                   <br />
                   heart. Say goodbye to the hassle of traditional payment <br />
                   methods and embrace a convenient, secure, and <br />
@@ -52,23 +58,29 @@ const Hero1 = () => {
             </div>
 
             {/* second part */}
-            <div className="order-last md:order-last justify-center w-[80%] "></div>
-            <Image src={group510} alt="group510" />
+            <div className="order-last md:order-last justify-center w-[80%]   "></div>
+            <Image className="mt-12" src={group510} alt="group510" />
           </div>
         </div>
+        </div>
 
+
+
+
+      <div className=" pt-40 container mx-auto ">
+        
         {/* section2 */}
-        <section className="md:pt-12 mt-60 md:mt-0 ">
+        <section className="md:pt-12 mt-60 md:mt-0  ">
           <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 md:pt-28  flex bg-[#00082B] rounded-[30px]  ">
             <div>
-              <div className="order-first md:order-first justify-center mt-0 md:mt-20 ml-16 pr-6 md:pr-0">
+              <div className="order-first md:order-first justify-center mt-0 md:mt-20 ml-16 pr-6 md:pr-0 w-[80%]">
                 <p className="text-[#B0FF25] pt-6 ">
                   Pay any bill services as long as it exists
                 </p>
                 <h1 className="font-bold lg:text-[38px] text-[25px] text-white">
                   Wide and Increased <br /> Range of Service
                 </h1>
-                <p className="pt-6  text-white">
+                <p className="pt-6  text-white ">
                   Goodbye to long bank queues. Make swift <br />
                   transactions and manage your finances <br />
                   better with Payterminal
@@ -118,7 +130,7 @@ const Hero1 = () => {
                   </h1>
                   <div className="flex space-x-4">
                     {" "}
-                    <p>
+                    <p className="text-[#313131]">
                       We take your security and privacy <br />
                       very seriously and we are committed <br />
                       to protecting your account with the <br />
@@ -136,7 +148,7 @@ const Hero1 = () => {
                   </h1>
                   <div className="flex space-x-4">
                     {" "}
-                    <p>
+                    <p className="text-[#313131]">
                       We use state of the art data <br />
                       encryption technology when handling <br />
                       all financial information and standard <br />
@@ -166,7 +178,7 @@ const Hero1 = () => {
                     <div className="flex space-x-4">
                       {" "}
                       <span className="h-[85px] border-l-2 border-[#82C708]"></span>
-                      <p>
+                      <p className="text-[#313131]">
                         We take your security and privacy <br />
                         very seriously and we are committed <br />
                         to protecting your account with the <br />
@@ -184,7 +196,7 @@ const Hero1 = () => {
                     <div className="flex space-x-4">
                       {" "}
                       <span className="h-[85px] border-l-2 border-[#82C708]"></span>
-                      <p>
+                      <p className="text-[#313131]">
                         We take your security and privacy <br />
                         very seriously and we are committed <br />
                         to protecting your account with the <br />
@@ -220,16 +232,16 @@ const Hero1 = () => {
                   Let’s help you power up your <br />
                   business, streamline operations <br />
                   and Accelerate growth.{" "}
-                  <span className="absolute md:right-2  bottom-1 md:bottom-4">
+                  <span className="absolute md:right-[-5px] bottom-1 md:bottom-4">
                     <Image src={group513} alt="group513" />{" "}
                   </span>
                 </h1>
-                <p>
+                <p className="#313131">
                   Supercharge and take your business to the next level with{" "}
                   <br />
                   payterminal. Money moves better with Payterminal.
                 </p>
-                <ul className="list-disc">
+                <ul className="list-disc text-[#313131]">
                   <li>Get a free business account</li>
                   <li>Access to Pos Device</li>
                   <li>Organise your business with easy to use tools</li>
@@ -243,6 +255,42 @@ const Hero1 = () => {
           </div>
         </div>
       </section>
+
+      <section className="container mx-auto pt-40">
+        <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex ">
+          <div className="flex justify-center  container  mx-auto w-[90%]   ">
+            <div className="space-y-6">
+              <h1 className="text-[#050038] text-[20px] md:text-[38px]   font-[600] relative">
+                Unlock a new world of <br />
+                possibilities on Payteminal <br />
+                Pos
+                <span className="absolute bottom-1 md:bottom-4">
+                  <Image src={group513} alt="group513" />{" "}
+                </span>
+              </h1>
+              <p className="font-light leading-7">
+                With our intuitive platform, you can swiftly make <br />
+                payments, seamlessly send and receive money, and <br />
+                effortlessly stay connected to a wide range of local and <br />
+                international services that hold a special place in your <br />
+                heart. Say goodbye to the hassle of traditional payment <br />
+                methods and embrace a convenient, secure, and <br />
+                interconnected experience
+              </p>
+
+              <Image className="" src={group144} alt="group144" />
+            </div>
+          </div>
+
+          {/* part2 */}
+          <div
+            className="bg-cover bg-center bg-no-repeat  "
+            style={{ backgroundImage: `url('/assets/OJO.svg')` }}
+          >
+            <Image className="w-[80%] mx-auto" src={group515} alt="image515" />
+          </div>
+        </div>
+</section>
     </div>
   );
 };

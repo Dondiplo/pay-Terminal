@@ -16,44 +16,12 @@ import shape from "public/assets/Twitter.svg";
 const Hero2 = () => {
   return (
     <div>
-      <section className="container mx-auto pt-40">
-        <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex ">
-          <div className="flex justify-center  container  mx-auto w-[90%]   ">
-            <div className="space-y-6">
-              <h1 className="text-[#050038] text-[20px] md:text-[38px]   font-[600] relative">
-                Unlock a new world of <br />
-                possibilities on Payteminal <br />
-                Pos
-                <span className="absolute bottom-1 md:bottom-4">
-                  <Image src={group513} alt="group513" />{" "}
-                </span>
-              </h1>
-              <p className="font-light leading-7">
-                With our intuitive platform, you can swiftly make <br />
-                payments, seamlessly send and receive money, and <br />
-                effortlessly stay connected to a wide range of local and <br />
-                international services that hold a special place in your <br />
-                heart. Say goodbye to the hassle of traditional payment <br />
-                methods and embrace a convenient, secure, and <br />
-                interconnected experience
-              </p>
-
-              <Image className="" src={group144} alt="group144" />
-            </div>
-          </div>
-
-          {/* part2 */}
-          <div
-            className="bg-cover bg-center bg-no-repeat  "
-            style={{ backgroundImage: `url('/assets/OJO.svg')` }}
-          >
-            <Image className="w-[80%] mx-auto" src={group515} alt="image515" />
-          </div>
-        </div>
+      <section className="container mx-auto pt-40  ">
+       
 
         {/* section2 */}
         <div
-          className="bg-cover bg-center bg-no-repeat  md:h-[30rem] w-[90%] mx-auto rounded-2xl mt-12"
+          className="bg-cover bg-center bg-no-repeat  md:h-[30rem] w-[95%] mx-auto rounded-2xl mt-12"
           style={{
             backgroundImage: `url('/assets/Group 523.svg')`,
             backgroundPosition: "center calc(50% + 10rem)",
@@ -93,7 +61,7 @@ const Hero2 = () => {
 
         {/* footer */}
       </section>
-      <footer className="bg-[#262B3E] mt-24 pt-24 pb-8 ">
+      <footer className="bg-[#262B3E] mt-[181px] pt-24 pb-8 ">
         <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  container mx-auto ">
           <div className=" flex justify-between mx-auto w-[90%]">
             <div className="space-y-4 text-[#D0DAF5] font-light">
