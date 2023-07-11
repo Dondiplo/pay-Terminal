@@ -14,6 +14,7 @@ import group266 from "public/assets/Group 266.svg";
 import group513 from "public/assets/Group 513.svg";
 import group144 from "public/assets/Group144.svg";
 import group515 from "public/assets/Group 515 .svg";
+import  group510m from "public/assets/Group 510m.svg"
 
 const Hero1 = () => {
   return (
@@ -24,10 +25,10 @@ const Hero1 = () => {
       
 
       <div
-          className="bg-cover bg-center bg-no-repeat md:h-full h-[70rem]  w-full "
+          className="bg-cover bg-center bg-no-repeat md:h-[40rem] h-[70rem]  w-full "
           style={{ backgroundImage: `url('/assets/Group470.svg')` }}
         >
-          <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex ">
+          <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  w-full  justify-center">
             <div>
               <div className="order-first md:order-first justify-center mt-0 md:mt-20 ml-16 pr-6 md:pr-0">
                 <h1 className="font-bold lg:text-[38px] text-[25px] text-[#2D3247]">
@@ -59,7 +60,11 @@ const Hero1 = () => {
 
             {/* second part */}
             <div className="order-last md:order-last justify-center w-[80%]   "></div>
-            <Image className="mt-12" src={group510} alt="group510" />
+            <Image  className="hidden md:block mt-12" src={group510} alt="group510" />
+            <Image  className="md:hidden" src={group510m} alt="group510m"/>
+            <div className="space-y-[10rem]">
+
+            </div>
           </div>
         </div>
         </div>

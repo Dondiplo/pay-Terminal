@@ -16,13 +16,13 @@ import "../app/app.css";
 
 export default function Hero() {
   return (
-    <div className="lg:container lg:mx-auto  overflow-hidden">
+    <div className="lg:container lg:mx-auto  overflow-hidden pt-10">
       <div
         className="bg-cover bg-center md:h-[900px] h-[35rem] relative"
         style={{ backgroundImage: "url(/assets/Rectangle%202.svg)" }}
       >
         <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 pt-28">
-          <div className="order-first md:order-first justify-center mt-0 md:mt-44 ml-16">
+          <div className="order-first md:order-first justify-center mt-0 md:mt-44 mx-auto w-[80%] md:w-full ">
             <h1 className="text-[#3C5F00]  font-light text-[35px] lg:text-[50px] md:text-[45px] ">
               Fastest way to make
             </h1>
@@ -49,7 +49,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="rounded-3xl bg-white shadow-slate-500 drop-shadow-2xl  mx-auto py-8 mt-[30rem] md:mt-[-95px] mt-12 w-[90%]">
+      <div className=" rounded-3xl bg-white shadow-slate-500 drop-shadow-2xl   mx-auto py-8 mt-[30rem] md:mt-[-95px]  w-[90%]">
         <Image className="mx-auto grayscale" src={logos} alt="logos" />
       </div>
 
