@@ -16,7 +16,7 @@ import shape from "public/assets/Twitter.svg";
 const Hero2 = () => {
   return (
     <div>
-      <section className="container mx-auto pt-40  ">
+      <section className="container mx-auto pt-28 pb-28  overflow-hidden ">
        
 
         {/* section2 */}
@@ -35,7 +35,7 @@ const Hero2 = () => {
 
             {/* part 2 */}
             <div>
-              <div className="space-y-4 md:pt-48 justify-content">
+              <div className="space-y-4 md:pt-64 justify-content">
                 <h1 className="text-[#2D3247] text-[42px] text-center font-bold ">
                   Come join us
                 </h1>
@@ -61,7 +61,7 @@ const Hero2 = () => {
 
         {/* footer */}
       </section>
-      <footer className="bg-[#262B3E] mt-[181px] pt-24 pb-8 ">
+      <footer className="bg-[#262B3E] mt-[181px] pt-28 pb-8 ">
         <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  container mx-auto ">
           <div className=" flex justify-between mx-auto w-[90%]">
             <div className="space-y-4 text-[#D0DAF5] font-light">

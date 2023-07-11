@@ -17,7 +17,7 @@ import group515 from "public/assets/Group 515 .svg";
 
 const Hero1 = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
 
       <div className="mt-40 bg-[#f7f7f7]">
 
@@ -71,7 +71,7 @@ const Hero1 = () => {
         
         {/* section2 */}
         <section className="md:pt-12 mt-60 md:mt-0  ">
-          <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 md:pt-28  flex bg-[#00082B] rounded-[30px]  ">
+          <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 md:pt-28  flex bg-[#00082B] rounded-[40px]  ">
             <div>
               <div className="order-first md:order-first justify-center mt-0 md:mt-20 ml-16 pr-6 md:pr-0 w-[80%]">
                 <p className="text-[#B0FF25] pt-6 ">
@@ -113,11 +113,11 @@ const Hero1 = () => {
             className="bg-no-repeat bg-cover bg-center h-full w-[80%] mx-auto"
             style={{ backgroundImage: `url('/assets/ymiswu.svg')` }}
           >
-            <h1 className="text[#2D3247] font-bold text-[42px] text-center">
+            <h1 className="text[#2D3247] font-bold text-[42px] text-center ">
               Your money is safe with us
             </h1>
           </div>
-          <p className="text-center">
+          <p className="text-center w-[90%]">
             Start sending money and paying your bills faster today.
           </p>
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 justify-center mx-auto pt-12 items-center  ">
@@ -241,7 +241,7 @@ const Hero1 = () => {
                   <br />
                   payterminal. Money moves better with Payterminal.
                 </p>
-                <ul className="list-disc text-[#313131]">
+                <ul className="list-disc text-[#313131] pl-4">
                   <li>Get a free business account</li>
                   <li>Access to Pos Device</li>
                   <li>Organise your business with easy to use tools</li>

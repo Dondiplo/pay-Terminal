@@ -16,14 +16,14 @@ import "../app/app.css";
 
 export default function Hero() {
   return (
-    <div className="lg:container lg:mx-auto">
+    <div className="lg:container lg:mx-auto  overflow-hidden">
       <div
-        className="bg-cover bg-center md:h-[950px] h-[35rem] relative"
+        className="bg-cover bg-center md:h-[900px] h-[35rem] relative"
         style={{ backgroundImage: "url(/assets/Rectangle%202.svg)" }}
       >
         <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 pt-28">
-          <div className="order-first md:order-first justify-center mt-0 md:mt-28 ml-16">
-            <h1 className="text-[#3C5F00]  font-light lg:text-[50px] md:text-[45px] ">
+          <div className="order-first md:order-first justify-center mt-0 md:mt-44 ml-16">
+            <h1 className="text-[#3C5F00]  font-light text-[35px] lg:text-[50px] md:text-[45px] ">
               Fastest way to make
             </h1>
             <h2 className="text-[#3C5F00]  font-extrabold lg:text-[50px] md:text-[45px]">
@@ -49,7 +49,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="rounded-3xl bg-white shadow-slate-500 drop-shadow-2xl  mx-auto py-8 mt-[30rem] md:mt-[-100px]  w-[90%]">
+      <div className="rounded-3xl bg-white shadow-slate-500 drop-shadow-2xl  mx-auto py-8 mt-[30rem] md:mt-[-95px] mt-12 w-[90%]">
         <Image className="mx-auto grayscale" src={logos} alt="logos" />
       </div>
 
@@ -71,8 +71,8 @@ export default function Hero() {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 justify-center mx-auto pt-12 items-center space-y-2 md:space-y-0 text-[#313131] ">
           <div className=" h-80 mx-auto ">
             <Image src={group462} alt="group462" />
-            <h1 className="font-bold text-center pt-4 ">Download Mobile App</h1>
-            <p className="text-center pt-4 font-extralight">
+            <h1 className="font-bold text-center pt-7 ">Download Mobile App</h1>
+            <p className="text-center  font-extralight">
               To get started, simply download the <br />
               Payterminal mobile application from the <br />
               app store or play store
@@ -80,12 +80,12 @@ export default function Hero() {
           </div>
           <div className="h-80 mx-auto relative">
             <div className="">
-              <Image className="hidden lg:block max-w-[12rem] absolute left-[-7rem] top-24 " src={line} alt="line"/>
+              <Image className="hidden lg:block max-w-[15rem] absolute left-[-7rem] top-24 " src={line} alt="line"/>
               <Image src={group463} alt="group463" />
-              <Image className=" hidden lg:block max-w-[12rem] absolute left-[19rem] top-24 " src={line} alt="line"/>
+              <Image className=" hidden lg:block max-w-[15rem] absolute left-[19rem] top-24 " src={line} alt="line"/>
             </div>
             <h1 className="font-bold text-center ">Create an account</h1>
-            <p className="text-center pt-4 font-extralight">
+            <p className="text-center  font-extralight">
               Sign up on the mobile app in less than <br />
               2 mins by providing the required KYC <br />
               details.
@@ -94,7 +94,7 @@ export default function Hero() {
           <div className="h-80 mx-auto">
             <Image src={group464} alt="group464" />
             <h1 className="font-bold text-center  ">Add a debit card</h1>
-            <p className="text-center pt-4 font-extralight">
+            <p className="text-center  font-extralight">
               Add a debit card or fund your account <br />
               and you’re good to go
             </p>
