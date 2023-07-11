@@ -25,7 +25,7 @@ const Hero1 = () => {
       
 
       <div
-          className="bg-cover bg-center bg-no-repeat md:h-[40rem] h-[70rem]  w-full "
+          className="bg-cover bg-center bg-no-repeat md:h-[40rem] h-[73rem]  w-full "
           style={{ backgroundImage: `url('/assets/Group470.svg')` }}
         >
           <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  w-full  justify-center">
@@ -61,7 +61,7 @@ const Hero1 = () => {
             {/* second part */}
             <div className="order-last md:order-last justify-center w-[80%]   "></div>
             <Image  className="hidden md:block mt-12" src={group510} alt="group510" />
-            <Image  className="md:hidden" src={group510m} alt="group510m"/>
+            <Image  className="md:hidden w-[80%] mx-auto" src={group510m} alt="group510m"/>
             <div className="space-y-[10rem]">
 
             </div>
