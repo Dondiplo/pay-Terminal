@@ -28,7 +28,7 @@ export default function Nav() {
           </Link>
 
           <div className="space-x-4 lg:space-x-10 md:flex hidden text-[#313131]">
-            <Link className="text-[#313131] hover:font-bold" href="/us/home">
+            <Link className="text-[#313131] hover:font-bold" href="/">
               Home
             </Link>
             <Link className="hover:font-bold" href="/us/about-us">
