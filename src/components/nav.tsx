@@ -34,7 +34,7 @@ export default function Nav() {
             <Link className="hover:font-bold" href="/us/about-us">
               About Us
             </Link>
-            <Link className="hover:font-bold" href="/us/faq">
+            <Link className="hover:font-bold" href="/us/faqs">
               FAQ
             </Link>
             <Link className="hover:font-bold" href="/us/contact-us">

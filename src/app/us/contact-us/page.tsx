@@ -1,5 +1,7 @@
-export default function Contact (){
+export default function Faq (){
     return (
-        <div>contact us</div>
+        <div>
+            <h1>frequently asked questions aje </h1>
+        </div>
     )
 }
