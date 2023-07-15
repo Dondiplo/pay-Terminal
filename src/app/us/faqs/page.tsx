@@ -77,7 +77,7 @@ export default function About() {
         </div>
         {showContent1 && (
           <p className="text-center pt-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            Lorem ipsum dolor site amet, consectetur adipiscing elit. Fusce
             vulputate lorem at malesuada faucibus. Vivamus sagittis lacinia
             aliquam. Quisque et felis mi. Phasellus accumsan erat ac elit.
           </p>
