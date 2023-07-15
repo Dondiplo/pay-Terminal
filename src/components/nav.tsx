@@ -50,30 +50,24 @@ export default function Nav() {
             </Link>
           </div>
 
-{/* mobile */}
-<div className="md:hidden">
-          <GiHamburgerMenu
-            onClick={handleToggleMenu}
-            className={isMobileMenuOpen ? "hidden" : "cursor-pointer"}
-          />
-          <GrClose
-            onClick={handleCloseMenu}
-            className={isMobileMenuOpen ? "cursor-pointer" : "hidden"}
-          />
+          {/* mobile */}
+          <div className="md:hidden">
+            <GiHamburgerMenu
+              onClick={handleToggleMenu}
+              className={isMobileMenuOpen ? "hidden" : "cursor-pointer"}
+            />
+            <GrClose
+              onClick={handleCloseMenu}
+              className={isMobileMenuOpen ? "cursor-pointer" : "hidden"}
+            />
+          </div>
         </div>
-        </div>
-
-        
       </div>
 
       {/* mobile menu */}
       {isMobileMenuOpen && (
         <div className="md:hidden fixed top-12 bg-white z-10 self-end py-8 space-y-6 bg-white sm:w-auto left-6 right-6 drop-shadow-md flex flex-col justify-center items-center">
-          <Link
-            className="hover:font-bold"
-            href="/us/home"
-            onClick={handleCloseMenu}
-          >
+          <Link className="hover:font-bold" href="/" onClick={handleCloseMenu}>
             Home
           </Link>
           <Link
@@ -85,7 +79,7 @@ export default function Nav() {
           </Link>
           <Link
             className="hover:font-bold"
-            href="/us/faq"
+            href="/us/faqs"
             onClick={handleCloseMenu}
           >
             FAQ
