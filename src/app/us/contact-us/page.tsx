@@ -4,6 +4,7 @@ import design from "public/assets/DESIGN1.svg";
 import apple from "/public/assets/image 1.svg";
 import android from "/public/assets/image 2.svg";
 import Nav from "../../../components/nav";
+import group12 from 'public/assets/Group12.svg'
 
 export default function Faq() {
   return (
@@ -32,25 +33,24 @@ export default function Faq() {
           </div>
 
           {/* part2 */}
-          <div className="flex jusify-center">
+          <div className="flex jusify-content pt-6 md:pt-0">
             <Image src={design} alt="design" />
           </div>
         </div>
       </section>
 
       {/* section2 */}
-      <section>
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  w-full  justify-center pt-40 w-[80%]">
+      <section className="container mx-auto">
+        <div className=" grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  w-full  justify-center pt-40 ">
           
-          <div className="flex justify-content items-center ">
-          <div>
-            <form className="mx-auto container " >
+          <div className="mx-auto">
+            <form >
               <label className="text-[#050038] opacity-[60%]">Full Name</label>
               <br />
               <input
                 type="text"
                 name="firstname"
-                className="text-black border-[0.7px]  w-[80%] md:w-[35rem] h-[52px] bg-[#82C708] bg-opacity-[8%] rounded-[8px] mb-[24px]"
+                className="text-black border-[0.7px]  w-[20rem] md:w-[35rem] h-[52px] bg-[#82C708] bg-opacity-[8%] rounded-[8px] mb-[24px]"
               />
               <br />
 
@@ -62,7 +62,7 @@ export default function Faq() {
               <input
                 type="email"
                 name="email"
-                className="text-black border-[0.7px] w-[80%] md:w-[35rem] h-[52px] bg-[#82C708] bg-opacity-[8%] rounded-[8px] mb-[24px] "
+                className="text-black border-[0.7px] w-[20rem] md:w-[35rem] h-[52px] bg-[#82C708] bg-opacity-[8%] rounded-[8px] mb-[24px] "
               />
               <br />
 
@@ -73,11 +73,12 @@ export default function Faq() {
               <br />
               <textarea
                 name="message"
-                className="text-black border-[0.7px] w-[80%] md:w-[35rem] h-[222px] bg-[#82C708] bg-opacity-[8%] rounded-[8px]"
+                className="text-black border-[0.7px] w-[20rem] md:w-[35rem] h-[222px] bg-[#82C708] bg-opacity-[8%] rounded-[8px]"
               ></textarea>
               <br />
+
+              <button className="mt-[48px] rounded-[10px] h-[58px] w-[20rem] md:w-[35rem] bg-[#82C708]">send message</button>
             </form>
-          </div>
           </div>
 
           {/* part2 */}
@@ -96,6 +97,25 @@ Aequitatem praeterea legere stultorum atomum pro <br />
           </div>
         </div>
       </section>
+
+
+      {/* section3 */}
+      <section className="bg-[#00061C] flex flex-col justify-center items-center mt-40">
+  <h1 className="text-white text-center pt-[81px]">
+    You can also get 24/7 support from here
+  </h1>
+  <div className="flex justify-center">
+    <Image src={group12} alt="group12" />
+  </div>
+   
+   <div className="hidden md:flex space-x-[90px]  text-white pb-[81px] text-[22px]">
+   <p>social media</p>
+   <p>Chat with us</p>
+   <p>Send us a message</p>
+   <p>call us</p>
+   </div>
+</section>
+
     </div>
   );
 }
