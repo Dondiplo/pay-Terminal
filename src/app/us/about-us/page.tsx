@@ -2,12 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 import apple from "/public/assets/image 1.svg";
 import android from "/public/assets/image 2.svg";
+import Nav from '../../../components/nav'
 
 export default function Contact() {
   return (
     <div>
+      <Nav/>
       {" "}
-      <div className="pt-60 mx-auto bg-[#99AAB5] h-[34rem] rounded-b-[22rem] ">
+      <div className="pt-60 mx-auto bg-[#99AAB5] bg-opacity-[10] h-[40rem] ">
         <div
           className="bg-cover bg-center bg-no-repeat w-[43%] h-[7.5rem] mx-auto  "
           style={{ backgroundImage: `url('/assets/Ourstory.svg')` }}
@@ -31,6 +33,13 @@ export default function Contact() {
           </div>
         </div>
       </div>
+
+      {/* section 2 */}
+      <section className="rounded-t-[20px] w-90% mx-auto  h-30rem bg-blue-200">
+        <div className="text-center">
+ldsknlkdhigoklrsdhilkvigjfojrg
+        </div>
+      </section>
     </div>
   );
 }

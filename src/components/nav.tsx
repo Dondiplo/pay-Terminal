@@ -24,7 +24,7 @@ const Nav: React.FC<NavProps> = ({ bgColor }) => {
 
   return (
     <div className="mx-10">
-      <div className="w-full bg-white  left-0   w-full z-10 fixed   h-[5rem] pt-4 ">
+    <div className={`w-full ${bgColor} left-0 w-full z-10 fixed h-[5rem] pt-4`}>
         <div className="flex justify-between items-center  mx-8 ">
           <Link href="/" onClick={handleCloseMenu}>
             <Image src={logo} alt="logo" />
