@@ -42,7 +42,7 @@ export default function Faq() {
       <section>
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  w-full  justify-center pt-40 w-[80%]">
           <div>
-            <form className="mx-auto container md:w-full " >
+            <form className="mx-auto container w-[300px] md:w-[559px] " >
               <label className="text-[#050038] opacity-[60%]">Full Name</label>
               <br />
               <input
