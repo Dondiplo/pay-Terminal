@@ -11,12 +11,16 @@ import group462 from "/public/assets/Group 462.svg";
 import group463 from "/public/assets/Group 463.svg";
 import group464 from "/public/assets/Group 464.svg";
 import line from "/public/assets/Line 1.svg";
+import Nav from './nav'
 
 import "../app/app.css";
 
 export default function Hero() {
   return (
+  <div>
+    <Nav/>
     <div className="lg:container lg:mx-auto  overflow-hidden pt-10">
+     
       <div
         className="bg-cover bg-center md:h-[900px] h-[35rem] relative"
         style={{ backgroundImage: "url(/assets/Rectangle%202.svg)" }}
@@ -101,6 +105,7 @@ export default function Hero() {
           </div>
         </div>
       </section>
+    </div>
     </div>
   );
 }

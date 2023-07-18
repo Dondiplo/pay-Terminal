@@ -21,13 +21,13 @@ const Hero2 = () => {
 
         {/* section2 */}
         <div
-          className="bg-cover bg-center bg-no-repeat  md:h-[30rem] w-[95%] mx-auto rounded-2xl mt-12"
+          className="bg-cover bg-center bg-no-repeat  md:h-[30rem] w-[90%] mx-auto rounded-2xl mt-12"
           style={{
             backgroundImage: `url('/assets/Group 523.svg')`,
             backgroundPosition: "center calc(50% + 10rem)",
           }}
         >
-          <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 flex w-[90%]">
+          <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 flex w-[95%]">
             <div>
               {" "}
               <Image src={group522} alt="group522" />
@@ -46,7 +46,7 @@ const Hero2 = () => {
                   connected <br />
                   to a wide range of local and international services .
                 </p>
-                <div className="flex justify-center space-x-8  ">
+                <div className="flex justify-center  space-x-8  ">
                   <Link href="https://play.google.com/store/apps/details?id=com.payterminal.payterminal">
                     <Image src={apple} alt="logo" />
                   </Link>

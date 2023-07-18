@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div>
       {" "}
-      <div className="pt-60 mx-auto bg-[#99AAB5] h-[34rem] rounded-bt-3xl">
+      <div className="pt-60 mx-auto bg-[#99AAB5] h-[34rem] rounded-b-[22rem] ">
         <div
           className="bg-cover bg-center bg-no-repeat w-[43%] h-[7.5rem] mx-auto  "
           style={{ backgroundImage: `url('/assets/Ourstory.svg')` }}

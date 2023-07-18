@@ -6,6 +6,7 @@ import { CiSearch } from "react-icons/ci";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import curl from "public/assets/curl.svg";
 import group525 from "public/assets/Group 525.svg";
+import Nav from '../../../components/nav'
 
 export default function About() {
   const [showContent1, setShowContent1] = useState(false);
@@ -37,7 +38,8 @@ export default function About() {
 
   return (
     <div>
-      <div className="mx-auto container pt-24">
+<Nav/>
+      <div className="mx-auto container pt-[134px]">
         <div
           className="bg-cover bg-center bg-no-repeat w-[80%] h-[5rem] mx-auto"
           style={{ backgroundImage: `url('/assets/hcwhu.svg')` }}
