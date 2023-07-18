@@ -53,6 +53,7 @@ export default function Faq() {
               <br />
 
               {/* email */}
+              <div className="mx-auto">
               <label className="text-[#050038] opacity-[60%] ">
                 Email address
               </label>
@@ -62,7 +63,7 @@ export default function Faq() {
                 name="email"
                 className="text-black border-[0.7px] w-[80%] md:w-[35rem] h-[52px] bg-[#82C708] bg-opacity-[8%] rounded-[8px] mb-[24px] "
               />
-              <br />
+              <br /></div>
 
               {/* message */}
               <label className="text-[#050038] opacity-[60%]">
@@ -71,7 +72,7 @@ export default function Faq() {
               <br />
               <textarea
                 name="message"
-                className="text-black border-[0.7px] w-[559px] h-[222px] bg-[#82C708] bg-opacity-[8%] rounded-[8px]"
+                className="text-black border-[0.7px] w-[80%] md:w-[35rem]] h-[222px] bg-[#82C708] bg-opacity-[8%] rounded-[8px]"
               ></textarea>
               <br />
             </form>
