@@ -48,7 +48,7 @@ export default function Faq() {
               <input
                 type="text"
                 name="firstname"
-                className="text-black border-[0.7px]  w-80% md:w-[50rem] h-[52px] bg-[#82C708] bg-opacity-[8%] rounded-[8px] mb-[24px]"
+                className="text-black border-[0.7px]  w-[80%] md:w-[35rem] h-[52px] bg-[#82C708] bg-opacity-[8%] rounded-[8px] mb-[24px]"
               />
               <br />
 
@@ -60,7 +60,7 @@ export default function Faq() {
               <input
                 type="email"
                 name="email"
-                className="text-black border-[0.7px] w-80% md:w-[50rem] h-[52px] bg-[#82C708] bg-opacity-[8%] rounded-[8px] mb-[24px] "
+                className="text-black border-[0.7px] w-[80%] md:w-[35rem] h-[52px] bg-[#82C708] bg-opacity-[8%] rounded-[8px] mb-[24px] "
               />
               <br />
 
