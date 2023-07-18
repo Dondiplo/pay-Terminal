@@ -41,8 +41,10 @@ export default function Faq() {
       {/* section2 */}
       <section>
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  w-full  justify-center pt-40 w-[80%]">
+          
+          <div className="flex justify-content items-center ">
           <div>
-            <form className="mx-auto container w-80% md:w-[50rem] " >
+            <form className="mx-auto container " >
               <label className="text-[#050038] opacity-[60%]">Full Name</label>
               <br />
               <input
@@ -53,7 +55,6 @@ export default function Faq() {
               <br />
 
               {/* email */}
-              <div className="mx-auto">
               <label className="text-[#050038] opacity-[60%] ">
                 Email address
               </label>
@@ -63,7 +64,7 @@ export default function Faq() {
                 name="email"
                 className="text-black border-[0.7px] w-[80%] md:w-[35rem] h-[52px] bg-[#82C708] bg-opacity-[8%] rounded-[8px] mb-[24px] "
               />
-              <br /></div>
+              <br />
 
               {/* message */}
               <label className="text-[#050038] opacity-[60%]">
@@ -72,10 +73,11 @@ export default function Faq() {
               <br />
               <textarea
                 name="message"
-                className="text-black border-[0.7px] w-[80%] md:w-[35rem]] h-[222px] bg-[#82C708] bg-opacity-[8%] rounded-[8px]"
+                className="text-black border-[0.7px] w-[80%] md:w-[35rem] h-[222px] bg-[#82C708] bg-opacity-[8%] rounded-[8px]"
               ></textarea>
               <br />
             </form>
+          </div>
           </div>
 
           {/* part2 */}
