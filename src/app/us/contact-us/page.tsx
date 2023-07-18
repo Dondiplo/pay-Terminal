@@ -42,13 +42,13 @@ export default function Faq() {
       <section>
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  w-full  justify-center pt-40 w-[80%]">
           <div>
-            <form className="mx-auto container w-[300px] md:w-[559px] " >
+            <form className="mx-auto container w-80% md:w-[50rem] " >
               <label className="text-[#050038] opacity-[60%]">Full Name</label>
               <br />
               <input
                 type="text"
                 name="firstname"
-                className="text-black border-[0.7px]  md:w-[559px] h-[52px] bg-[#82C708] bg-opacity-[8%] rounded-[8px] mb-[24px]"
+                className="text-black border-[0.7px]  w-80% md:w-[50rem] h-[52px] bg-[#82C708] bg-opacity-[8%] rounded-[8px] mb-[24px]"
               />
               <br />
 
@@ -60,7 +60,7 @@ export default function Faq() {
               <input
                 type="email"
                 name="email"
-                className="text-black border-[0.7px]  w-[559px] h-[52px] bg-[#82C708] bg-opacity-[8%] rounded-[8px] mb-[24px] "
+                className="text-black border-[0.7px] w-80% md:w-[50rem] h-[52px] bg-[#82C708] bg-opacity-[8%] rounded-[8px] mb-[24px] "
               />
               <br />
 
