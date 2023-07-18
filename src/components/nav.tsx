@@ -7,8 +7,11 @@ import Image from "next/image";
 import logo from "/public/assets/logo 1.svg";
 import apple from "/public/assets/image 1.svg";
 import android from "/public/assets/image 2.svg";
+type NavProps = {
+  bgColor: string;
+};
 
-export default function Nav() {
+const Nav: React.FC<NavProps> = ({ bgColor }) => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleToggleMenu = () => {
@@ -95,4 +98,5 @@ export default function Nav() {
       )}
     </div>
   );
-}
+};
+export default Nav ;

@@ -38,8 +38,8 @@ export default function About() {
 
   return (
     <div>
-<Nav/>
-      <div className="mx-auto container pt-[134px]">
+      <Nav/>
+      <div className="mx-auto container pt-40">
         <div
           className="bg-cover bg-center bg-no-repeat w-[80%] h-[5rem] mx-auto"
           style={{ backgroundImage: `url('/assets/hcwhu.svg')` }}
