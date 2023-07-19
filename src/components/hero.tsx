@@ -26,7 +26,7 @@ export default function Hero() {
         style={{ backgroundImage: "url(/assets/Rectangle%202.svg)" }}
       >
         <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 pt-28">
-          <div className="order-first md:order-first justify-center mt-0 md:mt-44 mx-auto w-[80%] md:w-full ">
+          <div className="order-first md:order-first justify-center mt-0 md:mt-44  w-[90%] md:w-full ml-6 ">
             <h1 className="text-[#3C5F00]  font-light text-[35px] lg:text-[50px] md:text-[45px] ">
               Fastest way to make
             </h1>
@@ -72,7 +72,7 @@ export default function Hero() {
           </h1>
         </div>
 
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 justify-center mx-auto pt-12 items-center space-y-2 md:space-y-0 text-[#313131] ">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 justify-center mx-auto pt-12 pb-6 items-center space-y-2 md:space-y-0 text-[#313131] ">
           <div className=" h-80 mx-auto ">
             <Image src={group462} alt="group462" />
             <h1 className="font-bold text-center pt-7 ">Download Mobile App</h1>
@@ -91,8 +91,8 @@ export default function Hero() {
             <h1 className="font-bold text-center ">Create an account</h1>
             <p className="text-center  font-extralight">
               Sign up on the mobile app in less than <br />
-              2 mins by providing the required KYC <br />
-              details.
+              2 mins by providing the required KYC details <br />
+            
             </p>
           </div>
           <div className="h-80 mx-auto">

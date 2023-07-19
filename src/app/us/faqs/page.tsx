@@ -78,7 +78,7 @@ export default function About() {
           )}
         </div>
         {showContent1 && (
-          <p className="text-center pt-4">
+          <p className="text-start pt-4">
             Lorem ipsum dolor site amet, consectetur adipiscing elit. Fusce
             vulputate lorem at malesuada faucibus. Vivamus sagittis lacinia
             aliquam. Quisque et felis mi. Phasellus accumsan erat ac elit.
@@ -97,7 +97,7 @@ export default function About() {
           )}
         </div>
         {showContent2 && (
-          <p className="text-center pt-[57px]">
+          <p className="text-start pt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
             vulputate lorem at malesuada faucibus. Vivamus sagittis lacinia
             aliquam. Quisque et felis mi. Phasellus accumsan erat ac elit.
@@ -116,7 +116,7 @@ export default function About() {
           )}
         </div>
         {showContent3 && (
-          <p className="text-center pt-4">
+          <p className="text-start pt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
             vulputate lorem at malesuada faucibus. Vivamus sagittis lacinia
             aliquam. Quisque et felis mi. Phasellus accumsan erat ac elit.
@@ -135,7 +135,7 @@ export default function About() {
           )}
         </div>
         {showContent4 && (
-          <p className="text-center pt-4">
+          <p className="text-start pt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
             vulputate lorem at malesuada faucibus. Vivamus sagittis lacinia
             aliquam. Quisque et felis mi. Phasellus accumsan erat ac elit.
@@ -154,7 +154,7 @@ export default function About() {
           )}
         </div>
         {showContent5 && (
-          <p className="text-center pt-4">
+          <p className="text-start pt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
             vulputate lorem at malesuada faucibus. Vivamus sagittis lacinia
             aliquam. Quisque et felis mi. Phasellus accumsan erat ac elit.

@@ -84,7 +84,7 @@ const Hero2 = () => {
           </div>
 
           {/* part2 */}
-          <div className=" flex justify-between  w-[90%] mx-auto">
+          <div className=" flex justify-between  w-[95%] mx-auto">
             <div className=" hidden md:block space-y-4 text-[#D0DAF5] font-light ">
               <h1 className="font-bold">Explore</h1>
               <p>Resources </p>
@@ -133,16 +133,16 @@ const Hero2 = () => {
           </div>
         </div>
 
-        <div className="h-[0.5px] bg-[#D0DAF5] w-[80%] flex justify-content mx-auto border-dotted mt-8"></div>
+        <div className="h-[0.2px] bg-[#D0DAF5] w-[83%] flex justify-content mx-auto border-dotted mt-8 mb-8"></div>
 
         {/* end footer  */}
-        <div className="container mx-auto  justify-between  w-[90%] flex  text-[#D0DAF5]">
-          <div className="py-2">
+        <div className="container mx-10  justify-between   flex  text-[#D0DAF5] mb-8">
+          <div className="py-4">
             <Image src={footlo} alt="footlo" />
-            <p>No 1 katakuma plaza Gudu Abuja</p>
+            <p className="opacity-[50%]  ">No 1 katakuma plaza Gudu Abuja</p>
           </div>
 
-          <ul className=" hidden md:flex space-x-4 pt-4">
+          <ul className=" hidden md:flex space-x-4 pt-6 text-[14px] font-bolder">
             <li>Terms</li>
             <li>Privacy</li>
             <li>Cookies</li>
