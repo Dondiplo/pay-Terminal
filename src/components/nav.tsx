@@ -20,7 +20,7 @@ export default function Nav() {
   };
 
   return (
-    <div className="mx-10">
+    <div className="mx-10 overflow-hidden">
       <div className="w-full   left-0   w-full z-10 fixed   h-[5rem] pt-4 ">
         <div className="flex justify-between items-center  mx-8 ">
           <Link href="/" onClick={handleCloseMenu}>

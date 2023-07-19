@@ -8,7 +8,7 @@ import group12 from 'public/assets/Group12.svg'
 
 export default function Faq() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Nav/>
       <section className=" bg-[#82C708] bg-opacity-[8%] ">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  w-full  justify-center pt-40">

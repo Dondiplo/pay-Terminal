@@ -11,7 +11,7 @@ import ojo from "public/assets/OJO4YQ0 1.png";
 
 export default function Contact() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Nav />{" "}
       <div className=" mx-auto  h-[40rem] ">
         <div
@@ -77,23 +77,26 @@ export default function Contact() {
             style={{ backgroundImage: `url('/assets/OJO4YQ0 1.png')` }}
           >
             <div className=" md:mx-32 md:mt-20">
-            <Image src={group534} alt="group534" />
+              <Image src={group534} alt="group534" />
             </div>
           </div>
 
           {/* section2 */}
           <div className="mt-[125px] space-y-6">
-<p className="text-[#B0FF25]">Our story</p>
-<h1 className="leading-[59px] text-[42px] font-bold text-white">This is how we started yet <br />
-   we are great</h1>
-   <p className="text-white">With our intuitive platform, you can swiftly make <br />
- payments, seamlessly send and receive money, and <br />
-  effortlessly stay connected to a wide range of local and <br />
-   international services that hold a special place in your <br />
-    heart. Say goodbye to the hassle of traditional payment <br />
-     methods and embrace a convenient, secure, and <br />
-      interconnected experience</p>
-
+            <p className="text-[#B0FF25]">Our story</p>
+            <h1 className="leading-[59px] text-[42px] font-bold text-white">
+              This is how we started yet <br />
+              we are great
+            </h1>
+            <p className="text-white">
+              With our intuitive platform, you can swiftly make <br />
+              payments, seamlessly send and receive money, and <br />
+              effortlessly stay connected to a wide range of local and <br />
+              international services that hold a special place in your <br />
+              heart. Say goodbye to the hassle of traditional payment <br />
+              methods and embrace a convenient, secure, and <br />
+              interconnected experience
+            </p>
           </div>
         </div>
       </section>

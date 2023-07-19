@@ -37,7 +37,7 @@ export default function About() {
 
 
   return (
-    <div>
+    <div className="overflow-hidden">
       <Nav/>
       <div className="mx-auto container pt-40">
         <div
