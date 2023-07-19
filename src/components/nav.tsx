@@ -7,11 +7,8 @@ import Image from "next/image";
 import logo from "/public/assets/logo 1.svg";
 import apple from "/public/assets/image 1.svg";
 import android from "/public/assets/image 2.svg";
-type NavProps = {
-  bgColor: string;
-};
 
-const Nav: React.FC<NavProps> = ({ bgColor }) => {
+export default function Nav() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleToggleMenu = () => {
@@ -24,7 +21,7 @@ const Nav: React.FC<NavProps> = ({ bgColor }) => {
 
   return (
     <div className="mx-10">
-    <div className={`w-full ${bgColor} left-0 w-full z-10 fixed h-[5rem] pt-4`}>
+      <div className="w-full   left-0   w-full z-10 fixed   h-[5rem] pt-4 ">
         <div className="flex justify-between items-center  mx-8 ">
           <Link href="/" onClick={handleCloseMenu}>
             <Image src={logo} alt="logo" />
@@ -98,5 +95,4 @@ const Nav: React.FC<NavProps> = ({ bgColor }) => {
       )}
     </div>
   );
-};
-export default Nav ;
+}

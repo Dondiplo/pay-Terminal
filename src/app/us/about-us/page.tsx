@@ -9,15 +9,16 @@ export default function Contact() {
     <div>
       <Nav/>
       {" "}
-      <div className="pt-60 mx-auto bg-[#99AAB5] bg-opacity-[10] h-[40rem] ">
+      <div className=" mx-auto  h-[40rem] ">
         <div
-          className="bg-cover bg-center bg-no-repeat w-[43%] h-[7.5rem] mx-auto  "
-          style={{ backgroundImage: `url('/assets/Ourstory.svg')` }}
+          className="bg-cover bg-center bg-no-repeat w-[100%] h-[50.5rem] mx-auto  "
+          style={{ backgroundImage: `url('/assets/Subtract.svg')` }}
         >
+          <div className="pt-60 mx-auto container ">
           <h1 className=" flex justify-center text-[43px] font-bold text-[#2D3247] ">
             Our Story
           </h1>
-          <p>
+          <p className="text-center">
             Aequitatem praeterea legere stultorum atomum pro multo cura sed
             distinguique Nisi cui videtur: Laetetur Brutus cetero dolor
             Theophrastus existimo{" "}
@@ -30,14 +31,16 @@ export default function Contact() {
             <Link href="/">
               <Image src={android} alt="logo" />
             </Link>
+            </div>
           </div>
         </div>
       </div>
 
       {/* section 2 */}
-      <section className="rounded-t-[20px] w-90% mx-auto  h-30rem bg-blue-200">
-        <div className="text-center">
-ldsknlkdhigoklrsdhilkvigjfojrg
+      <section className="rounded-[20px] w-90% md: mx-auto mt-[124px]">
+        <div className="bg-cover bg-center bg-no-repeat w-[60rem] h-[7rem] mx-auto  "
+          style={{ backgroundImage: `url('/assets/WP.svg')` }}>
+           <h1> <span>why</span> Payterminal</h1>
         </div>
       </section>
     </div>
