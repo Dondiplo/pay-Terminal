@@ -102,7 +102,7 @@ Aequitatem praeterea legere stultorum atomum pro <br />
 
       {/* section3 */}
       <section className="bg-[#00061C] bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center mt-40"
-      style={{ backgroundImage: `url('/assets/Group470.svg')` }}
+      // style={{ backgroundImage: `url('/assets/Group470.svg')` }}
       >
   <h1 className="text-white text-center pt-[81px]">
     You can also get 24/7 support from here
