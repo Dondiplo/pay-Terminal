@@ -7,6 +7,7 @@ import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import curl from "public/assets/curl.svg";
 import group525 from "public/assets/Group 525.svg";
 import Nav from '../../../components/nav'
+import "../../../app/app.css"
 
 export default function About() {
   const [showContent1, setShowContent1] = useState(false);
@@ -52,7 +53,7 @@ export default function About() {
         <div className="relative flex justify-center pt-16">
           <input
             type="text"
-            className=" drop-shadow-2xl rounded-md py-6 pl-10 md:pl-16 pr-4 w-80% md:w-[50rem] focus:outline-none focus:ring-2 focus:ring-blue-500 "
+            className=" drop-shadow-md rounded-md py-6 pl-10 md:pl-16 pr-4 w-80% md:w-[50rem] focus:outline-none focus:ring-2 focus:ring-blue-500 "
             placeholder="Search your question here"
           />
           <CiSearch
@@ -68,8 +69,8 @@ export default function About() {
           {/* part2 */}
           <div className="lg:w-[80%] md:w-full w-[80%] text-[#313131] mx-auto  pb-[10rem] ">
       {/* Section 1 */}
-      <div className="flex-col items-center border-b pt-[104px]">
-        <div className="flex justify-between" onClick={toggleContent1}>
+      <div className="flex-col items-center border-b pt-[104px] pb-[25px]">
+        <div className="flex justify-between mx-2" onClick={toggleContent1}>
           <h1>What is Payterminal</h1>
           {showContent1 ? (
             <AiOutlineMinus size={18} color="black" />
@@ -87,8 +88,8 @@ export default function About() {
       </div>
 
       {/* Section 2 */}
-      <div className=" flex-col items-center border-b pt-[40px]">
-        <div className="flex  justify-between" onClick={toggleContent2}>
+      <div className=" flex-col items-center border-b pt-[25px] pb-[25px]">
+        <div className="flex  justify-between  mx-2" onClick={toggleContent2}>
           <h1>How do I pay with Payterminal?</h1>
           {showContent2 ? (
             <AiOutlineMinus size={18} color="black" />
@@ -106,8 +107,8 @@ export default function About() {
       </div>
 
       {/* Section 3 */}
-      <div className=" flex-col items-center border-b pt-[40px]">
-        <div className="flex justify-between" onClick={toggleContent3}>
+      <div className=" flex-col items-center border-b pt-[25px] pb-[25px]">
+        <div className="flex justify-between mx-2" onClick={toggleContent3}>
           <h1>What is Payterminal</h1>
           {showContent3 ? (
             <AiOutlineMinus size={18} color="black" />
@@ -125,8 +126,8 @@ export default function About() {
       </div>
 
       {/* Section 4 */}
-      <div className=" flex-col items-center border-b pt-[40px]">
-        <div className="flex  justify-between" onClick={toggleContent4}>
+      <div className=" flex-col items-center border-b pt-[25px] pb-[25px]">
+        <div className="flex  justify-between mx-2" onClick={toggleContent4}>
           <h1>What are the advantages of using Payterminal?</h1>
           {showContent4 ? (
             <AiOutlineMinus size={18} color="black" />
@@ -144,8 +145,8 @@ export default function About() {
       </div>
 
       {/* Section 5 */}
-      <div className="flex-col items-center border-b pt-[40px]">
-        <div className="flex justify-between" onClick={toggleContent5}>
+      <div className="flex-col items-center border-b pt-[25px] pb-[25px]">
+        <div className="flex justify-between mx-2" onClick={toggleContent5}>
           <h1>What are the advantages of using Payterminal?</h1>
           {showContent5 ? (
             <AiOutlineMinus size={18} color="black" />

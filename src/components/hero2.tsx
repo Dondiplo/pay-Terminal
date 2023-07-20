@@ -15,13 +15,11 @@ import shape from "public/assets/Twitter.svg";
 
 const Hero2 = () => {
   return (
-    <div>
-      <section className="container mx-auto pt-28 pb-28  overflow-hidden ">
-       
-
+    <div className="overflow-hidden ">
+      <section className="container mx-auto pt-28 pb-28  ">
         {/* section2 */}
         <div
-          className="bg-cover bg-center bg-no-repeat  md:h-[30rem] w-[90%] mx-auto rounded-2xl mt-12"
+          className="bg-cover bg-center bg-no-repeat  md:h-[30rem] w-[93%] mx-auto rounded-2xl mt-12"
           style={{
             backgroundImage: `url('/assets/Group 523.svg')`,
             backgroundPosition: "center calc(50% + 10rem)",
@@ -96,7 +94,7 @@ const Hero2 = () => {
             </div>
 
             <div>
-              <div className="space-y-8 text-[#D0DAF5] font-light rounded-2xl px-8 py-4 border-[0.5px] border-white blur-2xl]  justify-center">
+              <div className="space-y-8 text-[#D0DAF5] font-light bg-white bg-opacity-[20%] bg-blur-[20px] rounded-2xl px-8 py-4 border-[0.5px] border-white blur-2xl]  justify-center">
                 <h1 className="font-bold">Subscribe</h1>
                 <div>
                   <label

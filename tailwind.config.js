@@ -17,13 +17,12 @@ module.exports = {
       lg: "1240px",
       // => @media (min-width: 1440px) { ... }
     },
-    // extend: {
-    //   backgroundImage: {
-    //     'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-    //     'gradient-conic':
-    //       'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-    //   },
-    // },
+    
+    extend: {
+      colors: {
+        red: "#262B3E",
+      },
+    },
   },
   plugins: [],
 };

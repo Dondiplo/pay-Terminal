@@ -76,9 +76,9 @@ const Hero1 = () => {
         
         {/* section2 */}
         <section className="md:pt-12 mt-60 md:mt-0  ">
-          <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 md:pt-28  flex bg-[#00082B] rounded-[40px]  ">
+          <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 md:pt-12 md:pb-12  flex bg-[#00082B] rounded-[40px]  ">
             <div>
-              <div className="order-first md:order-first justify-center mt-0 md:mt-20 ml-16 pr-6 md:pr-0 w-[80%]">
+              <div className="order-first md:order-first justify-center mt-0 md:mt-16 ml-16 pr-6 md:pr-0 w-[80%]">
                 <p className="text-[#B0FF25] pt-6 ">
                   Pay any bill services as long as it exists
                 </p>
@@ -102,11 +102,11 @@ const Hero1 = () => {
             </div>
 
             {/* second part */}
-            <div className="order-last md:order-last justify-center mx-auto  ">
+            <div className="order-last md:order-last justify-center mx-auto flex justify-center  ">
               <Image
                 src={rotate}
                 alt="rotate"
-                className="animate-slower-rotate"
+                className=""
               />
             </div>
           </div>
@@ -147,7 +147,7 @@ const Hero1 = () => {
                 </div>
 
                 {/* lower element */}
-                <div className="pt-20">
+                <div className="pt-40">
                   <h1 className="text[#2D3247] font-bold text-[24px]">
                     Bank Level Security
                   </h1>
@@ -167,7 +167,7 @@ const Hero1 = () => {
             </div>
             {/* part2 */}
             <div>
-              <div className="flex justify-content">
+              <div className="flex justify-content pt-8">
                 <Image src={group511} alt="group511" />
               </div>
             </div>
@@ -269,7 +269,7 @@ const Hero1 = () => {
                 Unlock a new world of <br />
                 possibilities on Payteminal <br />
                 Pos
-                <span className="absolute bottom-1 md:bottom-4">
+                <span className="absolute bottom-1 md:bottom-3">
                   <Image src={group513} alt="group513" />{" "}
                 </span>
               </h1>

@@ -5,6 +5,7 @@ import apple from "/public/assets/image 1.svg";
 import android from "/public/assets/image 2.svg";
 import Nav from "../../../components/nav";
 import group12 from 'public/assets/Group12.svg'
+import "../../../app/app.css"
 
 export default function Faq() {
   return (
@@ -50,7 +51,7 @@ export default function Faq() {
               <input
                 type="text"
                 name="firstname"
-                className="text-black border-[0.7px]  w-[20rem] md:w-[35rem] h-[52px] bg-[#82C708] bg-opacity-[8%] rounded-[8px] mb-[24px]"
+                className="text-black border-[0.7px] border-[#446A00]  w-[20rem] md:w-[35rem] h-[52px] bg-[#82C708] bg-opacity-[8%] rounded-[8px] mb-[24px]"
               />
               <br />
 
@@ -62,7 +63,7 @@ export default function Faq() {
               <input
                 type="email"
                 name="email"
-                className="text-black border-[0.7px] w-[20rem] md:w-[35rem] h-[52px] bg-[#82C708] bg-opacity-[8%] rounded-[8px] mb-[24px] "
+                className="text-black border-[0.7px]  border-[#446A00] w-[20rem] md:w-[35rem] h-[52px] bg-[#82C708] bg-opacity-[8%] rounded-[8px] mb-[24px] "
               />
               <br />
 
@@ -73,7 +74,7 @@ export default function Faq() {
               <br />
               <textarea
                 name="message"
-                className="text-black border-[0.7px] w-[20rem] md:w-[35rem] h-[222px] bg-[#82C708] bg-opacity-[8%] rounded-[8px]"
+                className="text-black border-[0.7px] border-[#446A00] w-[20rem] md:w-[35rem] h-[222px] bg-[#82C708] bg-opacity-[8%] rounded-[8px]"
               ></textarea>
               <br />
 
@@ -87,7 +88,7 @@ export default function Faq() {
             style={{ backgroundImage: `url('/assets/tuym.png')` }}
           >
 
-<h1 className="text-[#272727] leading-[54px] text-[42px] text-center ">Tell us what is <br />
+<h1 className="text-[#272727] leading-[54px] text-[42px] text-center md:text-left ">Tell us what is <br />
  on your mind</h1>
 <p className="leading-[36.72px] text-[20px] pt-12 text-[#313131]"> 
 Aequitatem praeterea legere stultorum atomum pro <br />
@@ -100,7 +101,9 @@ Aequitatem praeterea legere stultorum atomum pro <br />
 
 
       {/* section3 */}
-      <section className="bg-[#00061C] flex flex-col justify-center items-center mt-40">
+      <section className="bg-[#00061C] bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center mt-40"
+      style={{ backgroundImage: `url('/assets/Group470.svg')` }}
+      >
   <h1 className="text-white text-center pt-[81px]">
     You can also get 24/7 support from here
   </h1>

@@ -8,23 +8,25 @@ import group528 from "public/assets/Group 528.svg";
 import group529 from "public/assets/Group 529.svg";
 import group534 from "public/assets/Group 534.svg";
 import ojo from "public/assets/OJO4YQ0 1.png";
+import "../../../app/app.css"
+
 
 export default function Contact() {
   return (
     <div className="overflow-hidden">
-      <Nav />{" "}
+      <Nav/>
       <div className=" mx-auto  h-[40rem] ">
         <div
-          className="bg-cover bg-center bg-no-repeat w-[100%] h-[50.5rem] mx-auto  "
+          className="bg-cover bg-center bg-no-repeat w-[100%] h-[50.5rem] mx-auto   "
           style={{ backgroundImage: `url('/assets/Subtract.svg')` }}
         >
-          <div className="pt-60 mx-auto container ">
+          <div className="pt-60 mx-auto container w-[90%] md:w-full  ">
             <h1 className=" flex justify-center text-[43px] font-bold text-[#2D3247] ">
               Our Story
             </h1>
-            <p className="text-center">
+            <p className="text-center ">
               Aequitatem praeterea legere stultorum atomum pro multo cura sed
-              distinguique Nisi cui videtur: Laetetur Brutus cetero dolor
+              distinguique <br /> Nisi cui videtur: Laetetur Brutus cetero dolor
               Theophrastus existimo{" "}
             </p>
 
@@ -42,7 +44,7 @@ export default function Contact() {
       {/* section 2 */}
       <section className="rounded-[20px] w-90% md: mx-auto mt-[124px]">
         <div
-          className="bg-cover bg-center bg-no-repeat w-[60rem] h-[7rem] mx-auto  "
+          className="hidden  md:bg-cover bg-center bg-no-repeat w-[60rem] h-[7rem] mx-auto  "
           style={{ backgroundImage: `url('/assets/WP.svg')` }}
         >
           <h1 className="text-center pt-6 text-[36px] text-[#272727] font-bold">
@@ -58,7 +60,7 @@ export default function Contact() {
         </div>
 
         {/* part2 */}
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3  justify-center mx-auto mt-[105px] items-center  ">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3  justify-center mx-auto mt-[155px] items-center  ">
           <div className="mx-auto">
             <Image src={group527} alt="527" />
           </div>
@@ -73,22 +75,22 @@ export default function Contact() {
         {/* part3 */}
         <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex mt-[125px] bg-[#00061C]  ">
           <div
-            className="bg-cover bg-center bg-no-repeat w-[60rem] h-[38rem] ]"
+            className="bg-cover bg-center bg-no-repeat w-[90%] md:w-[55rem] h-[38rem] mx-auto"
             style={{ backgroundImage: `url('/assets/OJO4YQ0 1.png')` }}
           >
-            <div className=" md:mx-32 md:mt-20">
+            <div className="mx-auto md:mx-32 md:mt-20">
               <Image src={group534} alt="group534" />
             </div>
           </div>
 
           {/* section2 */}
-          <div className="mt-[125px] space-y-6">
+          <div className="mt-12 md:mt-[125px]  mx-auto  w-[90%] md:w-full pb-8">
             <p className="text-[#B0FF25]">Our story</p>
             <h1 className="leading-[59px] text-[42px] font-bold text-white">
               This is how we started yet <br />
               we are great
             </h1>
-            <p className="text-white">
+            <p className="text-white pt-[18px]">
               With our intuitive platform, you can swiftly make <br />
               payments, seamlessly send and receive money, and <br />
               effortlessly stay connected to a wide range of local and <br />

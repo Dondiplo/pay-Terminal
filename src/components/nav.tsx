@@ -8,7 +8,10 @@ import logo from "/public/assets/logo 1.svg";
 import apple from "/public/assets/image 1.svg";
 import android from "/public/assets/image 2.svg";
 
-export default function Nav() {
+
+
+export default function Nav(){
+  
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleToggleMenu = () => {
@@ -20,7 +23,7 @@ export default function Nav() {
   };
 
   return (
-    <div className="mx-10 overflow-hidden">
+    <div className="mx-10 bg  overflow-hidden">
       <div className="w-full   left-0   w-full z-10 fixed   h-[5rem] pt-4 ">
         <div className="flex justify-between items-center  mx-8 ">
           <Link href="/" onClick={handleCloseMenu}>
@@ -28,7 +31,7 @@ export default function Nav() {
           </Link>
 
           <div className="space-x-4 lg:space-x-10 md:flex hidden text-[#313131]">
-            <Link className="text-[#313131] hover:font-bold" href="/">
+            <Link className="text-[#313131] hover:font-bold " href="/">
               Home
             </Link>
             <Link className="hover:font-bold" href="/us/about-us">

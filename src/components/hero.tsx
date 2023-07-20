@@ -17,16 +17,16 @@ import "../app/app.css";
 
 export default function Hero() {
   return (
-  <div>
+  <div className="overflow-hidden">
     <Nav/>
-    <div className="lg:container lg:mx-auto  overflow-hidden pt-10">
+    <div className="lg:container lg:mx-auto   pt-10">
      
       <div
         className="bg-cover bg-center md:h-[900px] h-[35rem] relative"
         style={{ backgroundImage: "url(/assets/Rectangle%202.svg)" }}
       >
         <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 pt-28">
-          <div className="order-first md:order-first justify-center mt-0 md:mt-44  w-[90%] md:w-full ml-6 ">
+          <div className="order-first md:order-first justify-center mt-0 md:mt-44  w-[90%] md:w-full ml-8 ">
             <h1 className="text-[#3C5F00]  font-light text-[35px] lg:text-[50px] md:text-[45px] ">
               Fastest way to make
             </h1>
