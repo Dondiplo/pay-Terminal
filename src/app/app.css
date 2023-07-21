@@ -3,11 +3,9 @@ p {
   font-family: "Gelion", sans-serif;
 }
 
-@keyframes slower-rotate {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
 
-.animate-slower-rotate {
-  animation: slower-rotate 10s infinite linear;
+.selected {
+  font-weight: bold;
+  color: red;
+ 
 }

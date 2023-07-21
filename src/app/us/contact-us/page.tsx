@@ -3,14 +3,14 @@ import Link from "next/link";
 import design from "public/assets/DESIGN1.svg";
 import apple from "/public/assets/image 1.svg";
 import android from "/public/assets/image 2.svg";
-import Nav from "../../../components/nav";
-import group12 from 'public/assets/Group12.svg'
-import "../../../app/app.css"
+import Nav from "../../../components/shared/nav";
+import group12 from "public/assets/Group12.svg";
+import "../../../app/app.css";
 
 export default function Faq() {
   return (
     <div className="overflow-hidden">
-      <Nav/>
+      <Nav />
       <section className=" bg-[#82C708] bg-opacity-[8%] ">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  w-full  justify-center pt-40">
           <div>
@@ -20,7 +20,7 @@ export default function Faq() {
             <p className=" text-[#313131] leading-8 text-center">
               Aequitatem praeterea legere stultorum atomum pro <br />
               multo cura sed distinguique Nisi cui videtur: Laetetur <br />
-              Brutus cetero dolor Theophrastus existimo{" "}
+              Brutus cetero dolor Theophrastus existimno{" "}
             </p>
 
             <div className=" justify-center flex space-x-4 pt-12 ">
@@ -43,9 +43,8 @@ export default function Faq() {
       {/* section2 */}
       <section className="container mx-auto">
         <div className=" grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  w-full  justify-center pt-40 ">
-          
           <div className="mx-auto">
-            <form >
+            <form>
               <label className="text-[#050038] opacity-[60%]">Full Name</label>
               <br />
               <input
@@ -78,7 +77,9 @@ export default function Faq() {
               ></textarea>
               <br />
 
-              <button className="mt-[48px] rounded-[10px] h-[58px] w-[20rem] md:w-[35rem] bg-[#82C708]">send message</button>
+              <button className="mt-[48px] rounded-[10px] h-[58px] w-[20rem] md:w-[35rem] bg-[#82C708]">
+                send message
+              </button>
             </form>
           </div>
 
@@ -87,38 +88,38 @@ export default function Faq() {
             className="bg-cover bg-center bg-no-repeat w-[90%] h-[15.6rem] mx-auto mt-12"
             style={{ backgroundImage: `url('/assets/tuym.png')` }}
           >
-
-<h1 className="text-[#272727] leading-[54px] text-[42px] text-center md:text-left ">Tell us what is <br />
- on your mind</h1>
-<p className="leading-[36.72px] text-[20px] pt-12 text-[#313131]"> 
-Aequitatem praeterea legere stultorum atomum pro <br />
- multo cura sed distinguique Nisi cui videtur: Laetetur <br />
-  Brutus cetero dolor Theophrastus existimo 
-</p>
+            <h1 className="text-[#272727] leading-[54px] text-[42px] text-center md:text-left ">
+              Tell us what is <br />
+              on your mind
+            </h1>
+            <p className="leading-[36.72px] text-[20px] pt-12 text-[#313131]">
+              Aequitatem praeterea legere stultorum atomum pro <br />
+              multo cura sed distinguique Nisi cui videtur: Laetetur <br />
+              Brutus cetero dolor Theophrastus existimo
+            </p>
           </div>
         </div>
       </section>
 
-
       {/* section3 */}
-      <section className="bg-[#00061C] bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center mt-40"
-      // style={{ backgroundImage: `url('/assets/Group470.svg')` }}
+      <section
+        className="bg-[#00061C] bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center mt-40"
+        // style={{ backgroundImage: `url('/assets/Group470.svg')` }}
       >
-  <h1 className="text-white text-center pt-[81px]">
-    You can also get 24/7 support from here
-  </h1>
-  <div className="flex justify-center">
-    <Image src={group12} alt="group12" />
-  </div>
-   
-   <div className="hidden md:flex space-x-[90px]  text-white pb-[81px] text-[22px]">
-   <p>social media</p>
-   <p>Chat with us</p>
-   <p>Send us a message</p>
-   <p>call us</p>
-   </div>
-</section>
+        <h1 className="text-white text-center pt-[81px]">
+          You can also get 24/7 support from here
+        </h1>
+        <div className="flex justify-center">
+          <Image src={group12} alt="group12" />
+        </div>
 
+        <div className="hidden md:flex space-x-[90px]  text-white pb-[81px] text-[22px]">
+          <p>social media</p>
+          <p>Chat with us</p>
+          <p>Send us a message</p>
+          <p>call us</p>
+        </div>
+      </section>
     </div>
   );
 }

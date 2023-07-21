@@ -30,7 +30,7 @@ const Hero1 = () => {
         >
           <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  w-full  justify-center mx-auto">
             <div>
-              <div className="order-first md:order-first justify-center mt-0 md:mt-20 ml-6 md:ml-32 pr-6 md:pr-0">
+              <div className="order-first md:order-first justify-center mt-0 md:mt-20 ml-6  md:ml-32 pr-6 md:pr-0">
                 <h1 className="font-bold lg:text-[38px] text-[25px] text-[#2D3247]">
                   Unlock a new world of <br />
                   possibilities with the ultimate <br />
@@ -263,7 +263,7 @@ const Hero1 = () => {
 
       <section className="container mx-auto pt-40">
         <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex ">
-          <div className="flex justify-center  container  mx-auto w-full md:w-[90%]    ">
+          <div className="flex justify-center  container  mx-auto w-full w-[80%]    ">
             <div className="space-y-6">
               <h1 className="text-[#050038] text-[20px] md:text-[38px]   font-[600] relative">
                 Unlock a new world of <br />

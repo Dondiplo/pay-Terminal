@@ -2,19 +2,18 @@ import Image from "next/image";
 import Link from "next/link";
 import apple from "/public/assets/image 1.svg";
 import android from "/public/assets/image 2.svg";
-import Nav from "../../../components/nav";
+import Nav from "../../../components/shared/nav";
 import group527 from "public/assets/Group 527.svg";
 import group528 from "public/assets/Group 528.svg";
 import group529 from "public/assets/Group 529.svg";
 import group534 from "public/assets/Group 534.svg";
 import ojo from "public/assets/OJO4YQ0 1.png";
-import "../../../app/app.css"
-
+import "../../../app/app.css";
 
 export default function Contact() {
   return (
     <div className="overflow-hidden">
-      <Nav/>
+      <Nav />
       <div className=" mx-auto  h-[40rem] ">
         <div
           className="bg-cover bg-center bg-no-repeat w-[100%] h-[50.5rem] mx-auto   "
