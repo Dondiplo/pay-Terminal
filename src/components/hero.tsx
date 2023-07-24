@@ -31,7 +31,7 @@ export default function Hero() {
               <h2 className="text-[#3C5F00]  font-extrabold lg:text-[50px] md:text-[45px]">
                 Secured payment.
               </h2>
-              <p className="lg:text-[18px] text-[#313131] md:text-[15px] font-[400] pt-[18px] lg:leading-[33px] font-extralight">
+              <p className="lg:text-[18px] text-[#313131] md:text-[15px]  pt-[18px] lg:leading-[33px] font-extralight">
                 Send money to friends, support local businesses, pay online{" "}
                 <br />
                 vendors, and manage subscriptions—all in a few clicks. With{" "}
@@ -62,7 +62,7 @@ export default function Hero() {
         </div>
 
         {/* section2 */}
-        <section className="justify-content" id="hero2">
+        <section className="justify-content mt-[30rem] md:mt-0" id="hero2">
           <div
             className="bg-no-repeat bg-cover bg-center h-full w-[50%] mx-auto"
             style={{ backgroundImage: `url('/assets/hiw.svg')` }}

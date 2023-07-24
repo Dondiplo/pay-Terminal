@@ -25,7 +25,7 @@ const Hero2 = () => {
             backgroundPosition: "center calc(50% + 10rem)",
           }}
         >
-          <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 flex w-[95%]">
+          <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 w-[95%]">
             <div>
               {" "}
               <Image src={group522} alt="group522" />
