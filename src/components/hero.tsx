@@ -53,7 +53,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className=" rounded-3xl bg-white shadow-slate-500 drop-shadow-2xl   mx-auto py-8 mt-[30rem] md:mt-[-95px]  w-[90%]">
+        <div className="hidden md:block rounded-3xl bg-white shadow-slate-500 drop-shadow-2xl   mx-auto py-8 mt-[30rem] md:mt-[-95px]  w-[90%]">
           <Image className="mx-auto grayscale" src={logos} alt="logos" />
         </div>
 

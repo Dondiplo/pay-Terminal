@@ -16,7 +16,7 @@ import shape from "public/assets/Twitter.svg";
 const Hero2 = () => {
   return (
     <div className="overflow-hidden ">
-      <section className="container mx-auto pt-28 pb-28  ">
+      <section className="container mx-auto pt-0 md:pt-28 pb-28  ">
         {/* section2 */}
         <div
           className="bg-cover bg-center bg-no-repeat  md:h-[30rem] w-[93%] mx-auto rounded-2xl mt-12"
@@ -59,7 +59,7 @@ const Hero2 = () => {
 
         {/* footer */}
       </section>
-      <footer className="bg-[#262B3E] mt-[181px] pt-28 pb-8 ">
+      <footer className="bg-[#262B3E] mt-0 md:mt-[181px] pt-28 pb-8 ">
         <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  container mx-auto ">
           <div className=" flex justify-between mx-auto w-[90%]">
             <div className="space-y-4 text-[#D0DAF5] font-light">
@@ -67,7 +67,7 @@ const Hero2 = () => {
               <p>0703 XXX XXX </p>
               <p>0706 XXX XXX</p>
               <p>Hello@payterminal.ng</p>
-              <p>customerservice@payterminal.ng</p>
+              <p>customerservice@ <br /> payterminal.ng</p>
             </div>
 
             <div className="space-y-4 text-[#D0DAF5] font-light">
@@ -93,7 +93,7 @@ const Hero2 = () => {
               <p>Connect</p>
             </div>
 
-            <div>
+            <div className="mx-auto">
               <div className="space-y-8 text-[#D0DAF5] font-light bg-white bg-opacity-[20%] bg-blur-[20px] rounded-2xl px-8 py-4 border-[0.5px] border-white blur-2xl]  justify-center">
                 <h1 className="font-bold">Subscribe</h1>
                 <div>

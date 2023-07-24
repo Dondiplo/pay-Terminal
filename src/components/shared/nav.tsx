@@ -7,12 +7,11 @@ import Image from "next/image";
 import logo from "/public/assets/logo 1.svg";
 import apple from "/public/assets/image 1.svg";
 import android from "/public/assets/image 2.svg";
-import { useRouter } from "next/navigation";
 
 
 
 export default function Nav(){
-  const router = useRouter();
+ 
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleToggleMenu = () => {
@@ -25,23 +24,23 @@ export default function Nav(){
 
   return (
     <div className="mx-10 bg  overflow-hidden">
-      <div className="w-full   left-0   w-full z-10 fixed   h-[5rem] pt-4 ">
+      <div className="w-full left-0 z-10 fixed   h-[5rem] pt-4 ">
         <div className="flex justify-between items-center  mx-8 ">
           <Link href="/" onClick={handleCloseMenu}>
             <Image src={logo} alt="logo" />
           </Link>
 
           <div className="space-x-4 lg:space-x-10 md:flex hidden text-[#313131]">
-            <Link className={`text-[#313131] hover:font-bold ${router.pathname === "/" ? "selected" : ""}`} href="/">
+            <Link className="text-[#313131] hover:font-bold " href="/">
               Home
             </Link>
-            <Link className={`hover:font-bold ${router.pathname === "/us/about-us" ? "selected" : ""}`} href="/us/about-us">
+            <Link className="hover:font-bold" href="us/about-us">
               About Us
             </Link>
-            <Link className={`hover:font-bold ${router.pathname === "/us/faqs" ? "selected" : ""}`} href="/us/faqs">
+            <Link className="hover:font-bold" href="/us/faqs">
               FAQ
             </Link>
-            <Link className={`hover:font-bold ${router.pathname === "/us/contact-us" ? "selected" : ""}`} href="/us/contact-us">
+            <Link className="hover:font-bold " href="/us/contact-us">
               Contact Us
             </Link>
           </div>

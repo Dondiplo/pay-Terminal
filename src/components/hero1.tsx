@@ -20,7 +20,7 @@ const Hero1 = () => {
   return (
     <div className="overflow-hidden">
 
-      <div className="mt-40 bg-[#f7f7f7]">
+      <div className="mt-20 md:mt-40  bg-[#f7f7f7]">
 
       
 
@@ -75,7 +75,7 @@ const Hero1 = () => {
       <div className=" pt-40 container mx-auto ">
         
         {/* section2 */}
-        <section className="md:pt-12 mt-60 md:mt-0  ">
+        <section className="md:pt-12 mt-30 md:mt-0  ">
           <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 md:pt-12 md:pb-12  flex bg-[#00082B] rounded-[40px]  ">
             <div>
               <div className="order-first md:order-first justify-center mt-0 md:mt-16 ml-16 pr-6 md:pr-0 w-[80%]">
@@ -219,7 +219,7 @@ const Hero1 = () => {
 
       {/* payterminal for business  */}
 
-      <section className="pt-24">
+      <section className=" pt-8 md:pt-24">
         <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4">
           <div>
             <div className="flex justify-center  md:justify-start">
