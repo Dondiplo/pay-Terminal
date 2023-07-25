@@ -11,6 +11,23 @@ import android from "/public/assets/image 2.svg";
 
 
 export default function Nav(){
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  const handleScroll = () => {
+    const scrollY = window.scrollY;
+    // Set a threshold value (e.g., 50) for when to apply the white background
+    setIsScrolled(scrollY > 50);
+  };
+
+  useEffect(() => {
+    // Add scroll event listener when the component mounts
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
  
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -23,8 +40,8 @@ export default function Nav(){
   };
 
   return (
-    <div className="mx-10 bg  overflow-hidden">
-      <div className="w-full left-0 z-10 fixed   h-[5rem] pt-4 ">
+    <div className="mx-10   overflow-hidden">
+      <div className={`w-full left-0 z-10 fixed bg-white bg-blur-[20px] h-[5rem] pt-4 ${isScrolled ? "" : "navbar-transparent"}`}>
         <div className="flex justify-between items-center  mx-8 ">
           <Link href="/" onClick={handleCloseMenu}>
             <Image src={logo} alt="logo" />

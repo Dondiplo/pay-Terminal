@@ -33,9 +33,9 @@ export default function Hero() {
               </h2>
               <p className="lg:text-[18px] text-[#313131] md:text-[15px]  pt-[18px] lg:leading-[33px] font-extralight">
                 Send money to friends, support local businesses, pay online{" "}
-                <br />
+               
                 vendors, and manage subscriptions—all in a few clicks. With{" "}
-                <br />
+                
                 our payment app, streamline your transactions effortlessly.
               </p>
 
@@ -49,7 +49,7 @@ export default function Hero() {
               </div>
             </div>
             <div className="order-last md:order-last justify-center">
-              <Image className="animate-pulse" src={phone1} alt="phone1" />
+              <Image className="animate-pulse hidden md:block" src={phone1} alt="phone1" />
             </div>
           </div>
         </div>
@@ -62,9 +62,9 @@ export default function Hero() {
         </div>
 
         {/* section2 */}
-        <section className="justify-content mt-[30rem] md:mt-0" id="hero2">
+        <section className="justify-content mt-[5] md:mt-0" id="hero2">
           <div
-            className="bg-no-repeat bg-cover bg-center h-full w-[50%] mx-auto"
+            className="bg-no-repeat bg-cover bg-center w-[80%] md:h-full md:w-[50%] mx-auto"
             style={{ backgroundImage: `url('/assets/hiw.svg')` }}
           >
             <h1 className="font-bold text-[43px] text-[#2d3247]  text-center">

@@ -31,7 +31,7 @@ const Hero1 = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  w-full  justify-center mx-auto">
             <div>
               <div className="order-first md:order-first justify-center mt-0 md:mt-20 ml-6  md:ml-32 pr-6 md:pr-0">
-                <h1 className="font-bold lg:text-[38px] text-[25px] text-[#2D3247]">
+                <h1 className="font-bold lg:text-[38px] text-[25px] text-[#2D3247] pt-8">
                   Unlock a new world of <br />
                   possibilities with the ultimate <br />
                   freedom of Payment
@@ -75,8 +75,8 @@ const Hero1 = () => {
       <div className=" pt-40 container mx-auto ">
         
         {/* section2 */}
-        <section className="md:pt-12 mt-30 md:mt-0  ">
-          <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 md:pt-12 md:pb-12  flex bg-[#00082B] rounded-[40px]  ">
+        <section className="md:pt-12 mt-18 md:mt-0  ">
+          <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 md:pt-12 md:pb-12  bg-[#00082B] rounded-[40px]  ">
             <div>
               <div className="order-first md:order-first justify-center mt-0 md:mt-16 ml-16 pr-6 md:pr-0 w-[80%]">
                 <p className="text-[#B0FF25] pt-6 ">
@@ -102,7 +102,7 @@ const Hero1 = () => {
             </div>
 
             {/* second part */}
-            <div className="order-last md:order-last justify-center mx-auto flex justify-center  ">
+            <div className="order-last md:order-last justify-center mx-auto flex   ">
               <Image
                 src={rotate}
                 alt="rotate"
@@ -168,7 +168,7 @@ const Hero1 = () => {
             {/* part2 */}
             <div>
               <div className="flex justify-content pt-8">
-                <Image src={group511} alt="group511" />
+                <Image className="hidden md:block" src={group511} alt="group511" />
               </div>
             </div>
 
@@ -222,8 +222,8 @@ const Hero1 = () => {
       <section className=" pt-8 md:pt-24">
         <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4">
           <div>
-            <div className="flex justify-center  md:justify-start">
-              <Image src={group266} alt="group266" />
+            <div className="flex justify-center  md:justify-start ">
+              <Image src={group266} className="" alt="group266" />
             </div>
           </div>
 
@@ -274,12 +274,12 @@ const Hero1 = () => {
                 </span>
               </h1>
               <p className="font-light leading-7">
-                With our intuitive platform, you can swiftly make <br />
-                payments, seamlessly send and receive money, and <br />
-                effortlessly stay connected to a wide range of local and <br />
-                international services that hold a special place in your <br />
-                heart. Say goodbye to the hassle of traditional payment <br />
-                methods and embrace a convenient, secure, and <br />
+                With our intuitive platform, you can swiftly make
+                payments, seamlessly send and receive money, and
+                effortlessly stay connected to a wide range of local and
+                international services that hold a special place in your
+                heart. Say goodbye to the hassle of traditional payment
+                methods and embrace a convenient, secure, and
                 interconnected experience
               </p>
 
@@ -289,10 +289,10 @@ const Hero1 = () => {
 
           {/* part2 */}
           <div
-            className="bg-cover bg-center bg-no-repeat  "
+            className="bg-cover bg-center bg-no-repeat "
             style={{ backgroundImage: `url('/assets/OJO.svg')` }}
           >
-            <Image className="w-[80%] mx-auto" src={group515} alt="image515" />
+            <Image className=" w-[80%] mx-auto" src={group515} alt="image515" />
           </div>
         </div>
 </section>
