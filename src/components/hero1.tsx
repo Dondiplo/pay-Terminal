@@ -234,19 +234,17 @@ const Hero1 = () => {
               <div className="space-y-6">
                 <p className="text-[#558205]">Payterminal for business </p>
                 <h1 className="text-[#050038] text-[20px] md:text-[38px]   font-[600] relative">
-                  Let’s help you power up your <br />
-                  business, streamline operations <br />
+                  Let’s help you power up your 
+                  business, streamline operations 
                   and Accelerate growth.{" "}
-                  <span className="absolute md:right-[-5px] bottom-1 md:bottom-4">
-                    <Image src={group513} alt="group513" />{" "}
-                  </span>
+                 <span className="rounded-lg bg-[#FF57571A] text-sm px-4 py-2 mt-[-5px] text-[#FF5757]">Coming Soon</span>
                 </h1>
-                <p className="#313131">
+                <p className="text-[#313131] font-thin">
                   Supercharge and take your business to the next level with{" "}
                   <br />
                   payterminal. Money moves better with Payterminal.
                 </p>
-                <ul className="list-disc text-[#313131] pl-4">
+                <ul className="list-disc text-[#313131] pl-4 font-thin">
                   <li>Get a free business account</li>
                   <li>Access to Pos Device</li>
                   <li>Organise your business with easy to use tools</li>
@@ -262,16 +260,14 @@ const Hero1 = () => {
       </section>
 
       <section className="container mx-auto pt-40">
-        <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex ">
+        <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4   ">
           <div className="flex justify-center  container  mx-auto w-[80%] md:w-full     ">
             <div className="space-y-6">
               <h1 className="text-[#050038] text-[20px] md:text-[38px]   font-[600] relative">
                 Unlock a new world of <br />
                 possibilities on Payteminal <br />
                 Pos
-                <span className="absolute bottom-1 md:bottom-3">
-                  <Image src={group513} alt="group513" />{" "}
-                </span>
+                <span className="rounded-lg bg-[#FF57571A] text-sm px-4 py-2 relative lg:bottom-2 ml-4 text-[#FF5757]">Coming Soon</span>
               </h1>
               <p className="font-light leading-7">
                 With our intuitive platform, you can swiftly make

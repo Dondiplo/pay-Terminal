@@ -7,7 +7,7 @@ import group527 from "public/assets/Group 527.svg";
 import group528 from "public/assets/Group 528.svg";
 import group529 from "public/assets/Group 529.svg";
 import group534 from "public/assets/Group 534.svg";
-import ojo from "public/assets/OJO4YQ0 1.png";
+
 import "../../../app/app.css";
 
 export default function Contact() {

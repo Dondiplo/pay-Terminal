@@ -1,22 +1,18 @@
 "use client";
+import { usePathname } from 'next/navigation'
+import Link from 'next/link'
 import React, { useState,useEffect } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
-import Link from "next/link";
 import Image from "next/image";
 import logo from "/public/assets/logo 1.svg";
 import apple from "/public/assets/image 1.svg";
 import android from "/public/assets/image 2.svg";
-import {usePathname} from "next/navigation"
 
 
 
-
-
-export const Nav = () => {
-
-const pathname = usePathname();
-
+export default function Nav(){
+  const pathname = usePathname()
 
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -45,6 +41,10 @@ const pathname = usePathname();
   const handleCloseMenu = () => {
     setMobileMenuOpen(false);
   };
+  
+  
+   
+  
 
   return (
     <div className="mx-10   overflow-hidden">
@@ -55,25 +55,16 @@ const pathname = usePathname();
           </Link>
 
           <div className="space-x-4 lg:space-x-10 md:flex hidden text-[#313131]">
-          <Link
-        className={`${pathname === "/" ? "bg-[#E5F9C1] rounded-lg" : "text-black hover:font-bold"}`}
-        href="/"
-      >
-        Home
-      </Link>
-            <Link className={`${pathname === "/us/about-us" ? "bg-[#E5F9C1] rounded-lg" : "text-black hover:font-bold"}`}
-             href="/us/about-us">
+            <Link className="text-[#313131] hover:font-bold " href="/">
+              Home
+            </Link>
+            <Link className="hover:font-bold" href="/us/about-us">
               About Us
             </Link>
-            <Link
-  className={`${pathname === "/us/faqs" ? "bg-[#E5F9C1] rounded-lg" : "text-black hover:font-bold"}`}
-  href="/us/faqs"
->
-  FAQ
-</Link>
-
-            <Link className={`${pathname === "/us/contact-us" ? "bg-[#E5F9C1] rounded-lg" : "text-black hover:font-bold"}`}
-             href="/us/contact-us">
+            <Link className="hover:font-bold" href="/us/faqs">
+              FAQ
+            </Link>
+            <Link className="hover:font-bold " href="/us/contact-us">
               Contact Us
             </Link>
           </div>
@@ -134,4 +125,11 @@ const pathname = usePathname();
     </div>
   );
 }
-export default Nav
+ 
+<span className="absolute md:right-[-5px] bottom-1 md:bottom-4">
+<Image src={group513} alt="group513" />{" "}
+</span>
+
+<span className="absolute bottom-1 md:bottom-3">
+                  <Image src={group513} alt="group513" />{" "}
+                </span>

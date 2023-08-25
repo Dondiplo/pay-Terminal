@@ -19,7 +19,7 @@ const Hero2 = () => {
       <section className="container mx-auto pt-0 md:pt-28 pb-28  ">
         {/* section2 */}
         <div
-          className="bg-cover bg-center bg-no-repeat  md:h-[30rem] w-[93%] mx-auto rounded-2xl mt-12"
+          className="bg-cover bg-center bg-no-repeat  md:h-[30rem] w-[100%] mx-auto rounded-2xl mt-12"
           style={{
             backgroundImage: `url('/assets/Group 523.svg')`,
             backgroundPosition: "center calc(50% + 10rem)",
@@ -33,7 +33,7 @@ const Hero2 = () => {
 
             {/* part 2 */}
             <div>
-              <div className="space-y-4 md:pt-64 justify-content">
+              <div className="space-y-4 md:pt-64 justify-content relative lg:bottom-6">
                 <h1 className="text-[#2D3247] text-[42px] text-center font-bold ">
                   Come join us
                 </h1>
@@ -60,7 +60,7 @@ const Hero2 = () => {
         {/* footer */}
       </section>
       <footer className="bg-[#262B3E] mt-0 md:mt-[181px] pt-28 pb-8 ">
-        <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  container mx-auto ">
+        <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4   container mx-auto ">
           <div className=" flex justify-between mx-auto w-[90%]">
             <div className="space-y-4 text-[#D0DAF5] font-light">
               <h1 className="font-bold">Contact</h1>
@@ -107,7 +107,7 @@ const Hero2 = () => {
                       type="text"
                       name="email"
                       id="price"
-                      className="block w-full rounded-md border-0 py-1.5 px-10 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                      className="block w-full rounded-md border-0 py-1.5 px-10 text-blue-600 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 "
                       placeholder="Email Address"
                     />
                     <div className="absolute inset-y-0 right-[-8px] flex ">

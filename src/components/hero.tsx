@@ -11,7 +11,7 @@ import group462 from "/public/assets/Group 462.svg";
 import group463 from "/public/assets/Group 463.svg";
 import group464 from "/public/assets/Group 464.svg";
 import line from "/public/assets/Line 1.svg";
-import Nav from "./shared/nav";
+
 
 import "../app/app.css";
 
@@ -20,11 +20,11 @@ export default function Hero() {
     <div className="overflow-hidden">
       <div className="lg:container lg:mx-auto   pt-10">
         <div
-          className="bg-cover bg-center md:h-[900px] h-[35rem] relative"
+          className="bg-cover bg-center md:h-[900px] w-[100%] h-[35rem] relative"
           style={{ backgroundImage: "url(/assets/Rectangle%202.svg)" }}
         >
           <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 pt-28">
-            <div className="order-first md:order-first justify-center mt-0 md:mt-44  w-[90%] md:w-full ml-8 ">
+            <div className="order-first md:order-first justify-center mt-0 md:mt-44  w-[90%] md:w-full ml-10 ">
               <h1 className="text-[#3C5F00]  font-light text-[35px] lg:text-[50px] md:text-[45px] ">
                 Fastest way to make
               </h1>
@@ -48,7 +48,7 @@ export default function Hero() {
                 </Link>
               </div>
             </div>
-            <div className="order-last md:order-last justify-center">
+            <div className="order-last md:order-last justify-center lg:mr-4">
               <Image className="animate-pulse hidden md:block" src={phone1} alt="phone1" />
             </div>
           </div>
