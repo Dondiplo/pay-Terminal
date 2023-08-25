@@ -1,5 +1,5 @@
 "use client";
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
 import Link from "next/link";
@@ -7,16 +7,10 @@ import Image from "next/image";
 import logo from "/public/assets/logo 1.svg";
 import apple from "/public/assets/image 1.svg";
 import android from "/public/assets/image 2.svg";
-import {usePathname} from "next/navigation"
-
-
-
-
+import { usePathname } from "next/navigation";
 
 export const Nav = () => {
-
-const pathname = usePathname();
-
+  const pathname = usePathname();
 
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -35,7 +29,7 @@ const pathname = usePathname();
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
- 
+
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleToggleMenu = () => {
@@ -48,32 +42,56 @@ const pathname = usePathname();
 
   return (
     <div className="mx-10   overflow-hidden">
-      <div className={`w-full left-0 z-10 fixed bg-white bg-blur-[20px] h-[5rem] pt-4 ${isScrolled ? "" : "navbar-transparent"}`}>
+      <div
+        className={`w-full left-0 z-10 fixed bg-white bg-blur-[20px] h-[5rem] pt-4 ${
+          isScrolled ? "" : "navbar-transparent"
+        }`}
+      >
         <div className="flex justify-between items-center  mx-8 ">
           <Link href="/" onClick={handleCloseMenu}>
             <Image src={logo} alt="logo" />
           </Link>
 
           <div className="space-x-4 lg:space-x-10 md:flex hidden text-[#313131]">
-          <Link
-        className={`${pathname === "/" ? "bg-[#E5F9C1] rounded-lg" : "text-black hover:font-bold"}`}
-        href="/"
-      >
-        Home
-      </Link>
-            <Link className={`${pathname === "/us/about-us" ? "bg-[#E5F9C1] rounded-lg" : "text-black hover:font-bold"}`}
-             href="/us/about-us">
+            <Link
+              className={`${
+                pathname === "/"
+                  ? "bg-[#E5F9C1] rounded-lg"
+                  : "text-black hover:font-bold"
+              }`}
+              href="/"
+            >
+              Home
+            </Link>
+            <Link
+              className={`${
+                pathname === "/us/about-us"
+                  ? "bg-[#E5F9C1] rounded-lg"
+                  : "text-black hover:font-bold"
+              }`}
+              href="/us/about-us"
+            >
               About Us
             </Link>
             <Link
-  className={`${pathname === "/us/faqs" ? "bg-[#E5F9C1] rounded-lg" : "text-black hover:font-bold"}`}
-  href="/us/faqs"
->
-  FAQ
-</Link>
+              className={`${
+                pathname === "/us/faqs"
+                  ? "bg-[#E5F9C1] rounded-lg"
+                  : "text-black hover:font-bold"
+              }`}
+              href="/us/faqs"
+            >
+              FAQ
+            </Link>
 
-            <Link className={`${pathname === "/us/contact-us" ? "bg-[#E5F9C1] rounded-lg" : "text-black hover:font-bold"}`}
-             href="/us/contact-us">
+            <Link
+              className={`${
+                pathname === "/us/contact-us"
+                  ? "bg-[#E5F9C1] rounded-lg"
+                  : "text-black hover:font-bold"
+              }`}
+              href="/us/contact-us"
+            >
               Contact Us
             </Link>
           </div>
@@ -87,7 +105,6 @@ const pathname = usePathname();
           </div>
 
           {/* hamburger */}
-
 
           <div className="md:hidden">
             <GiHamburgerMenu
@@ -133,5 +150,5 @@ const pathname = usePathname();
       )}
     </div>
   );
-}
-export default Nav
+};
+export default Nav;

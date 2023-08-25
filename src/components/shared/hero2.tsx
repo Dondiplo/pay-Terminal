@@ -67,7 +67,9 @@ const Hero2 = () => {
               <p>0703 XXX XXX </p>
               <p>0706 XXX XXX</p>
               <p>Hello@payterminal.ng</p>
-              <p>customerservice@ <br /> payterminal.ng</p>
+              <p>
+                customerservice@ <br /> payterminal.ng
+              </p>
             </div>
 
             <div className="space-y-4 text-[#D0DAF5] font-light">

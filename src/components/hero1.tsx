@@ -14,17 +14,13 @@ import group266 from "public/assets/Group 266.svg";
 import group513 from "public/assets/Group 513.svg";
 import group144 from "public/assets/Group144.svg";
 import group515 from "public/assets/Group 515 .svg";
-import  group510m from "public/assets/Group 510m.svg"
+import group510m from "public/assets/Group 510m.svg";
 
 const Hero1 = () => {
   return (
     <div className="overflow-hidden">
-
       <div className="mt-20 md:mt-40  bg-[#f7f7f7]">
-
-      
-
-      <div
+        <div
           className="bg-cover bg-center bg-no-repeat md:h-[40rem] h-[73rem]  w-full "
           style={{ backgroundImage: `url('/assets/Group470.svg')` }}
         >
@@ -60,20 +56,22 @@ const Hero1 = () => {
 
             {/* second part */}
             <div className="order-last md:order-last justify-center w-[80%]   "></div>
-            <Image  className="hidden md:block mt-12" src={group510} alt="group510" />
-            <Image  className="md:hidden w-[80%] mx-auto" src={group510m} alt="group510m"/>
-            <div className="space-y-[10rem]">
-
-            </div>
+            <Image
+              className="hidden md:block mt-12"
+              src={group510}
+              alt="group510"
+            />
+            <Image
+              className="md:hidden w-[80%] mx-auto"
+              src={group510m}
+              alt="group510m"
+            />
+            <div className="space-y-[10rem]"></div>
           </div>
         </div>
-        </div>
-
-
-
+      </div>
 
       <div className=" pt-40 container mx-auto ">
-        
         {/* section2 */}
         <section className="md:pt-12 mt-18 md:mt-0  ">
           <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4 md:pt-12 md:pb-12  bg-[#00082B] rounded-[40px]  ">
@@ -103,11 +101,7 @@ const Hero1 = () => {
 
             {/* second part */}
             <div className="order-last md:order-last justify-center mx-auto flex   ">
-              <Image
-                src={rotate}
-                alt="rotate"
-                className=""
-              />
+              <Image src={rotate} alt="rotate" className="" />
             </div>
           </div>
         </section>
@@ -168,7 +162,11 @@ const Hero1 = () => {
             {/* part2 */}
             <div>
               <div className="flex justify-content pt-8">
-                <Image className="hidden md:block" src={group511} alt="group511" />
+                <Image
+                  className="hidden md:block"
+                  src={group511}
+                  alt="group511"
+                />
               </div>
             </div>
 
@@ -234,10 +232,11 @@ const Hero1 = () => {
               <div className="space-y-6">
                 <p className="text-[#558205]">Payterminal for business </p>
                 <h1 className="text-[#050038] text-[20px] md:text-[38px]   font-[600] relative">
-                  Let’s help you power up your 
-                  business, streamline operations 
+                  Let’s help you power up your business, streamline operations
                   and Accelerate growth.{" "}
-                 <span className="rounded-lg bg-[#FF57571A] text-sm px-4 py-2 mt-[-5px] text-[#FF5757]">Coming Soon</span>
+                  <span className="rounded-lg bg-[#FF57571A] text-sm px-4 py-2 mt-[-5px] text-[#FF5757]">
+                    Coming Soon
+                  </span>
                 </h1>
                 <p className="text-[#313131] font-thin">
                   Supercharge and take your business to the next level with{" "}
@@ -267,16 +266,17 @@ const Hero1 = () => {
                 Unlock a new world of <br />
                 possibilities on Payteminal <br />
                 Pos
-                <span className="rounded-lg bg-[#FF57571A] text-sm px-4 py-2 relative lg:bottom-2 ml-4 text-[#FF5757]">Coming Soon</span>
+                <span className="rounded-lg bg-[#FF57571A] text-sm px-4 py-2 relative lg:bottom-2 ml-4 text-[#FF5757]">
+                  Coming Soon
+                </span>
               </h1>
               <p className="font-light leading-7">
-                With our intuitive platform, you can swiftly make
-                payments, seamlessly send and receive money, and
-                effortlessly stay connected to a wide range of local and
-                international services that hold a special place in your
-                heart. Say goodbye to the hassle of traditional payment
-                methods and embrace a convenient, secure, and
-                interconnected experience
+                With our intuitive platform, you can swiftly make payments,
+                seamlessly send and receive money, and effortlessly stay
+                connected to a wide range of local and international services
+                that hold a special place in your heart. Say goodbye to the
+                hassle of traditional payment methods and embrace a convenient,
+                secure, and interconnected experience
               </p>
 
               <Image className="" src={group144} alt="group144" />
@@ -291,7 +291,7 @@ const Hero1 = () => {
             <Image className=" w-[80%] mx-auto" src={group515} alt="image515" />
           </div>
         </div>
-</section>
+      </section>
     </div>
   );
 };
