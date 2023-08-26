@@ -15,6 +15,7 @@ import group513 from "public/assets/Group 513.svg";
 import group144 from "public/assets/Group144.svg";
 import group515 from "public/assets/Group 515 .svg";
 import group510m from "public/assets/Group 510m.svg";
+import {TbPointFilled} from "react-icons/tb"
 
 const Hero1 = () => {
   return (
@@ -24,7 +25,7 @@ const Hero1 = () => {
           className="bg-cover bg-center bg-no-repeat md:h-[40rem] h-[73rem]  w-full "
           style={{ backgroundImage: `url('/assets/Group470.svg')` }}
         >
-          <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  w-full  justify-center mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4    w-full  justify-center mx-auto">
             <div>
               <div className="order-first md:order-first justify-center mt-0 md:mt-20 ml-6  md:ml-32 pr-6 md:pr-0">
                 <h1 className="font-bold lg:text-[38px] text-[25px] text-[#2D3247] pt-8">
@@ -116,7 +117,7 @@ const Hero1 = () => {
               Your money is safe with us
             </h1>
           </div>
-          <p className="text-center w-[90%]">
+          <p className="text-center w-[100%]">
             Start sending money and paying your bills faster today.
           </p>
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 justify-center mx-auto pt-12 items-center  ">
@@ -234,8 +235,8 @@ const Hero1 = () => {
                 <h1 className="text-[#050038] text-[20px] md:text-[38px]   font-[600] relative">
                   Let’s help you power up your business, streamline operations
                   and Accelerate growth.{" "}
-                  <span className="rounded-lg bg-[#FF57571A] text-sm px-4 py-2 mt-[-5px] text-[#FF5757]">
-                    Coming Soon
+                  <span className=" rounded-lg bg-[#FF57571A] text-sm px-4 py-2 mt-[-5px] text-[#FF5757]">
+                  <span className="text-5xl">.</span> Coming Soon
                   </span>
                 </h1>
                 <p className="text-[#313131] font-thin">
@@ -266,8 +267,8 @@ const Hero1 = () => {
                 Unlock a new world of <br />
                 possibilities on Payteminal <br />
                 Pos
-                <span className="rounded-lg bg-[#FF57571A] text-sm px-4 py-2 relative lg:bottom-2 ml-4 text-[#FF5757]">
-                  Coming Soon
+                <span className="rounded-lg bg-[#FF57571A] text-sm px-4 py-2 relative lg:bottom-2 ml-4 text-[#FF5757] ">
+                <span className="text-5xl">.</span> Coming Soon 
                 </span>
               </h1>
               <p className="font-light leading-7">

@@ -96,28 +96,28 @@ const Hero2 = () => {
             </div>
 
             <div className="mx-auto">
-              <div className="space-y-8 text-[#D0DAF5] font-light bg-white bg-opacity-[20%] bg-blur-[20px] rounded-2xl px-8 py-4 border-[0.5px] border-white blur-2xl]  justify-center">
-                <h1 className="font-bold">Subscribe</h1>
+              <div className="space-y-6 text-[#D0DAF5] font-light bg-white bg-opacity-[20%] bg-blur-[20px] rounded-2xl px-8 py-4 border-[0.5px] border-white blur-2xl]  justify-center">
+                <h1 className="font-bold ">Subscribe</h1>
                 <div>
                   <label
                     htmlFor="email"
                     className="block text-sm font-medium leading-6 text-gray-900"
                   ></label>
-                  <div className="relative mt-2 rounded-md shadow-sm">
+                  <div className="relative  rounded-md shadow-sm">
                     <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"></div>
                     <input
                       type="text"
                       name="email"
                       id="price"
-                      className="block w-full rounded-md border-0 py-1.5 px-10 text-blue-600 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 "
+                      className="block w-full rounded-md border-0 py-1.5 px-10  placeholder:text-gray-400 focus:outline-none sm:text-sm sm:leading-6 h-[49px] "
                       placeholder="Email Address"
                     />
                     <div className="absolute inset-y-0 right-[-8px] flex ">
                       <span
                         id="currency"
-                        className="h-full rounded-md border-0 bg-transparent py-0  pl-4  text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
+                        className="h-full rounded-md border-0 bg-transparent py-0  pl-4 focus:outline-none  text-gray-500  sm:text-sm"
                       >
-                        <Image className="h-9" src={group524} alt="image524" />
+                        <Image className="h-[49px]" src={group524} alt="image524" />
                       </span>
                     </div>
                   </div>
