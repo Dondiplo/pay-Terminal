@@ -18,9 +18,7 @@ export default function Faq() {
               Contact Us
             </h1>
             <p className=" text-[#313131] leading-8 text-center">
-              Aequitatem praeterea legere stultorum atomum pro <br />
-              multo cura sed distinguique Nisi cui videtur: Laetetur <br />
-              Brutus cetero dolor Theophrastus existimno{" "}
+            We are working everyday to improve our app and come up with better ways to serve you better but if you ever need any additional assistance, complaints or suggestions. Please do not hesitate to reach out
             </p>
 
             <div className=" justify-center flex space-x-4 pt-12 ">
@@ -42,7 +40,7 @@ export default function Faq() {
 
       {/* section2 */}
       <section className="container mx-auto">
-        <div className=" grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex  w-full  justify-center pt-40 ">
+        <div className=" grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4    w-full  justify-center pt-40 ">
           <div className="mx-auto">
             <form>
               <label className="text-[#050038] opacity-[60%]">Full Name</label>
@@ -93,9 +91,7 @@ export default function Faq() {
               on your mind
             </h1>
             <p className="leading-[36.72px] text-[20px] pt-12 text-[#313131]">
-              Aequitatem praeterea legere stultorum atomum pro <br />
-              multo cura sed distinguique Nisi cui videtur: Laetetur <br />
-              Brutus cetero dolor Theophrastus existimo
+            We would love to hear to hear from you anytime, Kindly fill out the form and we’ll get back to you as soon as possible
             </p>
           </div>
         </div>

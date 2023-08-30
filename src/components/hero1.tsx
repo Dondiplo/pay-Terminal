@@ -15,7 +15,7 @@ import group513 from "public/assets/Group 513.svg";
 import group144 from "public/assets/Group144.svg";
 import group515 from "public/assets/Group 515 .svg";
 import group510m from "public/assets/Group 510m.svg";
-import {TbPointFilled} from "react-icons/tb"
+
 
 const Hero1 = () => {
   return (
@@ -130,7 +130,7 @@ const Hero1 = () => {
                   </h1>
                   <div className="flex space-x-4">
                     {" "}
-                    <p className="text-[#313131]">
+                    <p className="text-[#313131] text-right font-thin">
                       We take your security and privacy <br />
                       very seriously and we are committed <br />
                       to protecting your account with the <br />
@@ -143,12 +143,12 @@ const Hero1 = () => {
 
                 {/* lower element */}
                 <div className="pt-40">
-                  <h1 className="text[#2D3247] font-bold text-[24px]">
-                    Bank Level Security
+                  <h1 className="text[#2D3247] font-bold text-[24px] lg:pl-4">
+                             Bank Level Security
                   </h1>
                   <div className="flex space-x-4">
                     {" "}
-                    <p className="text-[#313131]">
+                    <p className="text-[#313131] text-right font-thin">
                       We use state of the art data <br />
                       encryption technology when handling <br />
                       all financial information and standard <br />
@@ -176,13 +176,13 @@ const Hero1 = () => {
               <div className="flex justify-center lg:justify-start ">
                 <div>
                   <div>
-                    <h1 className="text[#2D3247] font-bold text-[24px]">
+                    <h1 className="text[#2D3247] font-bold text-[24px] lg:pl-3">
                       Secure Transactions
                     </h1>
                     <div className="flex space-x-4">
                       {" "}
                       <span className="h-[85px] border-l-2 border-[#82C708]"></span>
-                      <p className="text-[#313131]">
+                      <p className="text-[#313131] font-thin">
                         We take your security and privacy <br />
                         very seriously and we are committed <br />
                         to protecting your account with the <br />
@@ -194,13 +194,13 @@ const Hero1 = () => {
 
                   {/* lower element */}
                   <div className="pt-20">
-                    <h1 className="text[#2D3247] font-bold text-[24px]">
+                    <h1 className="text[#2D3247] font-bold text-[24px] pl-3">
                       Security and Privacy
                     </h1>
                     <div className="flex space-x-4">
                       {" "}
                       <span className="h-[85px] border-l-2 border-[#82C708]"></span>
-                      <p className="text-[#313131]">
+                      <p className="text-[#313131] font-thin">
                         We take your security and privacy <br />
                         very seriously and we are committed <br />
                         to protecting your account with the <br />

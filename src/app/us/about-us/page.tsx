@@ -24,9 +24,7 @@ export default function Contact() {
               Our Story
             </h1>
             <p className="text-center ">
-              Aequitatem praeterea legere stultorum atomum pro multo cura sed
-              distinguique <br /> Nisi cui videtur: Laetetur Brutus cetero dolor
-              Theophrastus existimo{" "}
+              No long complicated process ,No hidden charges <br /> Your payments, completed fast, easy and simple .
             </p>
 
             <div className="md:flex space-x-4 hidden justify-center pt-[48px]">
@@ -72,7 +70,7 @@ export default function Contact() {
           </div>
         </div>
         {/* part3 */}
-        <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  flex mt-[125px] bg-[#00061C]  ">
+        <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4  mt-[125px] bg-[#00061C]  ">
           <div
             className="bg-cover bg-center bg-no-repeat w-[90%] md:w-[55rem] h-[38rem] mx-auto"
             style={{ backgroundImage: `url('/assets/OJO4YQ0 1.png')` }}
@@ -90,13 +88,12 @@ export default function Contact() {
               we are great
             </h1>
             <p className="text-white pt-[18px]">
-              With our intuitive platform, you can swiftly make <br />
-              payments, seamlessly send and receive money, and <br />
-              effortlessly stay connected to a wide range of local and <br />
-              international services that hold a special place in your <br />
-              heart. Say goodbye to the hassle of traditional payment <br />
-              methods and embrace a convenient, secure, and <br />
-              interconnected experience
+            We started out with a desire to simplify and improve the
+             existing system for payment <br /> in Nigeria and Africa because
+              we believe that you can measure the success of any <br /> economy 
+              in the world by the ease of transfer of money and exchange of
+               value among <br /> persons and businesses, Hence we are committed to making
+                a contribution to simplify <br /> and easen this process for every one 
             </p>
           </div>
         </div>
