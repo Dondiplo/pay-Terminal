@@ -17,10 +17,10 @@ export default function Faq() {
             <h1 className="text-[50px] font-bold text-[#2D3247] text-center">
               Contact Us
             </h1>
-            <p className=" text-[#313131] leading-8 text-center ">
+            <p className=" text-[#313131] leading-8 text-center  ">
               We are working everyday to improve our app and come up with better
-              ways <br /> to serve you better but if you ever need any
-              additional <br />
+              ways  to serve you better but if you ever need any
+              additional 
               assistance, complaints or suggestions. Please do not hesitate to
               reach out
             </p>
@@ -36,7 +36,7 @@ export default function Faq() {
           </div>
 
           {/* part2 */}
-          <div className="flex jusify-content pt-6 md:pt-0">
+          <div className=" hidden md:flex jusify-content pt-6 md:pt-0">
             <Image src={design} alt="design" />
           </div>
         </div>
