@@ -257,7 +257,7 @@ const Hero1 = () => {
         </div>
       </section>
 
-      <section className="container mx-auto pt-40 w-[80%]">
+      <section className="container mx-auto pt-40 lg:w-[80%]">
         <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4   ">
           <div className="flex justify-center  container  mx-auto w-[80%] md:w-full     ">
             <div className="space-y-6">
