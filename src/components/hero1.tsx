@@ -235,9 +235,7 @@ const Hero1 = () => {
                 <h1 className="text-[#050038] text-[20px] md:text-[38px]   font-[600] relative">
                   Let’s help you power up your business, streamline operations
                   and Accelerate growth.{" "}
-                  <span className=" rounded-lg bg-[#FF57571A] text-sm px-4 py-2 mt-[-5px] text-[#FF5757]">
-                  <span className="text-5xl">.</span> Coming Soon
-                  </span>
+                  
                 </h1>
                 <p className="text-[#313131] font-thin">
                   Supercharge and take your business to the next level with{" "}
