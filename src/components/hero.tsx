@@ -18,7 +18,7 @@ import "../app/app.css";
 export default function Hero() {
   return (
     <div className="overflow-hidden">
-      <div className="lg:container lg:mx-auto   pt-10">
+      <div className="lg:container lg:mx-auto    pt-10">
         <div
           className="bg-cover bg-center md:h-[900px] w-[100%] h-[35rem] relative"
           style={{ backgroundImage: "url(/assets/Rectangle%202.svg)" }}
