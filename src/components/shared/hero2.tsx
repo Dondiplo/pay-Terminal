@@ -19,7 +19,7 @@ const Hero2 = () => {
       <section className="container mx-auto pt-0 md:pt-28 pb-28  ">
         {/* section2 */}
         <div
-          className="bg-cover bg-center bg-no-repeat  md:h-[30rem]  mx-auto rounded-2xl mt-12"
+          className="bg-cover bg-center bg-no-repeat  md:h-[30rem] w-[93%]  mx-auto rounded-2xl mt-12"
           style={{
             backgroundImage: `url('/assets/Group 523.svg')`,
             backgroundPosition: "center calc(50% + 10rem)",
@@ -61,7 +61,7 @@ const Hero2 = () => {
       </section>
       <footer className="bg-[#262B3E] mt-0 md:mt-[181px] pt-28 pb-8 ">
         <div className="grid grid-reverse-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-4   container mx-auto ">
-          <div className=" flex justify-between mx-auto w-[90%] md:w-full">
+          <div className=" flex justify-between mx-auto w-[90%] ">
             <div className="space-y-4 text-[#D0DAF5] font-light">
               <h1 className="font-bold">Contact</h1>
               <p>0703 XXX XXX </p>
@@ -84,7 +84,7 @@ const Hero2 = () => {
           </div>
 
           {/* part2 */}
-          <div className=" flex justify-between  w-[95%] lg:w-full mx-auto">
+          <div className=" flex justify-between  w-[95%]  mx-auto">
             <div className=" hidden md:block space-y-4 text-[#D0DAF5] font-light ">
               <h1 className="font-bold">Explore</h1>
               <p>Resources </p>
@@ -133,16 +133,16 @@ const Hero2 = () => {
           </div>
         </div>
 
-        <div className="h-[0.2px] bg-[#D0DAF5] w-[83%] flex   mx-auto border-dotted mt-8 mb-8"></div>
+        <div className="h-[0.2px] bg-[#D0DAF5] w-[83%] flex justify-content  mx-auto border-dotted mt-8 mb-8"></div>
 
         {/* end footer  */}
-        <div className="container mx-20  justify-between flex  text-[#D0DAF5] mb-8">
+        <div className="container mx-10  justify-between flex  text-[#D0DAF5] mb-8">
           <div className="py-4 ">
             <Image src={footlo} alt="footlo" />
             <p className="opacity-[50%]  ">No 1 katakuma plaza Gudu Abuja</p>
           </div>
 
-          <ul className=" hidden md:flex space-x-4 pt-6 text-[14px] font-bolder lg:pr-32 ">
+          <ul className=" hidden md:flex space-x-4 pt-6 text-[14px] font-bolder  ">
             <li>Terms</li>
             <li>Privacy</li>
             <li>Cookies</li>
